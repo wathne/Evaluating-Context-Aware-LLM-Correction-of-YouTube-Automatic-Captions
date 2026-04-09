@@ -1,0 +1,53 @@
+Video_Id	CC_Status	Note	Category	Label	Metadata	youtube_caption	Ground_Truth	Chatgpt_caption	Llama2_caption	wer_gpt	bleu_gpt	rouge1_gpt	rouge2_gpt	rougeL_gpt	rougeLsum_gpt	wer_llama2	bleu_llama2	rouge1_llama2	rouge2_llama2	rougeL_llama2	rougeLsum_llama2	wer_asr	bleu_asr	rouge1_asr	rouge2_asr	rougeL_asr	rougeLsum_asr
+9xCwLDC4dTY	1		Cooking	1						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+VpCuw7822EU	1		Cooking	2						-1.06	0.012	0.0	0.0	0.0	0.0	-0.94	0.007	0.0	0.0	0.0	0.0						
+5_tK7VUjcGs	0	cc disabled	Cooking	3						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.031	0.0	0.0	0.0	0.0						
+FSCVgmLjjQI	1		Cooking	4						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+2PdxdditT5g	1		Cooking	5						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+oHbf24lL9Z8	1		Cooking	6						0.0	-0.012	0.0	0.0	0.0	0.0	0.0	-0.051	0.0	0.0	0.0	0.0						
+I8t7RElYxes	1		Cooking	7						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+cct6HqU0Zu4	1		Cooking	8						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+cFlSdT2loME	1		Cooking	9						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+W9qh7xL84Ns	1		Cooking	10						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+BKTY3gIzmFw	1		Education	1						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.008	0.0	0.0	0.0	0.0						
+BYdbStLBNk0	1		Education	2						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.001	0.0	0.0	0.0	0.0						
+gtZpmnQd2hM	1		Education	3						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.028	0.0	0.0	0.0	0.0						
+6ZIJG8F2RxA	1		Education	4						0.0	-0.002	0.0	0.0	0.0	0.0	0.0	-0.003	0.0	0.0	0.0	0.0						
+p2b6ZikLlVg	0	does not exist	Education	5						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.028	0.0	0.0	0.0	0.0						
+iQxFiFIEGcY	1	corrected Video_Id	Education	6						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.01	0.0	0.0	0.0	0.0						
+F7U3J9AJS8M	1		Education	7						0.0	-0.004	0.0	0.0	0.0	0.0	0.0	-0.006	0.0	0.0	0.0	0.0						
+5SLif03E-KE	1		Education	8						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+eTFy8RnUkoU	1		Education	9						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+zsjvFFKOm3c	1		Education	10						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.001	0.0	0.0	0.0	0.0						
+bi46iDzFs48	0	wrong video	Entertainment	1						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.081	0.0	0.0	0.0	0.0						
+pPLzAtFiDDw	1		Entertainment	2						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+1oPDwCp26bE	1		Entertainment	3						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+Ld2SS2-v3Fk	0	does not exist	Entertainment	4						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.01	0.0	0.0	0.0	0.0						
+CotW36ApEto	1		Entertainment	5						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+Yk5TE-7heoc	0	does not exist	Entertainment	6						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.006	0.0	0.0	0.0	0.0						
+Bypor4e04rg	1		Entertainment	7						0.0	-0.001	0.0	0.0	0.0	0.0	0.0	-0.133	0.0	0.0	0.0	0.0						
+xy8yKkXriuA	0	does not exist	Entertainment	8						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+_oxso1pWCHY	1	corrected Video_Id	Entertainment	9						0.0	-0.007	0.0	0.0	0.0	0.0	0.0	0.02	0.0	0.0	0.0	0.0						
+HutXJzlDuA0	0	does not exist	Entertainment	10						0.0	-0.012	0.0	0.0	0.0	0.0	0.0	-0.025	0.0	0.0	0.0	0.0						
+ULFUVwPDkxI	1		News	1						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.005	0.0	0.0	0.0	0.0						
+L7CGonrhG_k	1		News	2						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+GV_c1YlM9EA	1		News	3						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+ZMMRNb2xEkU	0	cc disabled	News	4						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+PvJuocemHS4	1		News	5						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+wGWVKkYEHBE	1		News	6						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.007	0.0	0.0	0.0	0.0						
+bKMJm6rbgL4	1		News	7						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+MlPD0dxDDQY	1		News	8						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.037	0.0	0.0	0.0	0.0						
+JgSHli3iKxA	1		News	9						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.036	0.0	0.0	0.0	0.0						
+ewfP4aDKqLc	0	cc disabled	News	10						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.007	0.0	0.0	0.0	0.0						
+eRxj35raxOs	1		Travel	1						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.135	0.0	0.0	0.0	0.0						
+YwWbuYQhlvM	1		Travel	2						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.024	0.0	0.0	0.0	0.0						
+c6paDig_s24	1		Travel	3						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.046	0.0	0.0	0.0	0.0						
+34LqdqM6Kg4	1		Travel	4						0.0	-0.02	0.0	0.0	0.0	0.0	0.0	-0.028	0.0	0.0	0.0	0.0						
+gBspmhvWgwA	1		Travel	5						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+HnYN7OQe854	1		Travel	6						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+qpyMZYSKSCU	1		Travel	7						0.0	-0.004	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+1gfm91bu6FE	1		Travel	8						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.005	0.0	0.0	0.0	0.0						
+CEx2oOtCFSU	1		Travel	9						0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0						
+hKy5Ec-HN3M	1		Travel	10						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.034	0.0	0.0	0.0	0.0						
+I6h-EmnqOps	1		Travel	11						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.002	0.0	0.0	0.0	0.0						
+aYRpJoKUBdQ	1		Travel	12						0.0	0.0	0.0	0.0	0.0	0.0	0.0	-0.015	0.0	0.0	0.0	0.0						

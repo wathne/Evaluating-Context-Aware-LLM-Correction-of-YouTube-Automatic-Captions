@@ -1,0 +1,3128 @@
+Old records (DHH), duplicated:
+Old records (DHH), reevaluated:
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY Llama2 Calculating WER ...done.
+(1/52) 9xCwLDC4dTY Llama2 Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY Llama2 Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU Llama2 Calculating WER ...done.
+(2/52) VpCuw7822EU Llama2 Calculating BLEU ...done.
+(2/52) VpCuw7822EU Llama2 Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating WER ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs Llama2 Calculating WER ...done.
+(3/52) 5_tK7VUjcGs Llama2 Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs Llama2 Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating WER ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI Llama2 Calculating WER ...done.
+(4/52) FSCVgmLjjQI Llama2 Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI Llama2 Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g Llama2 Calculating WER ...done.
+(5/52) 2PdxdditT5g Llama2 Calculating BLEU ...done.
+(5/52) 2PdxdditT5g Llama2 Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 Llama2 Calculating WER ...done.
+(6/52) oHbf24lL9Z8 Llama2 Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 Llama2 Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes Llama2 Calculating WER ...done.
+(7/52) I8t7RElYxes Llama2 Calculating BLEU ...done.
+(7/52) I8t7RElYxes Llama2 Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 Llama2 Calculating WER ...done.
+(8/52) cct6HqU0Zu4 Llama2 Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 Llama2 Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME Llama2 Calculating WER ...done.
+(9/52) cFlSdT2loME Llama2 Calculating BLEU ...done.
+(9/52) cFlSdT2loME Llama2 Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns Llama2 Calculating WER ...done.
+(10/52) W9qh7xL84Ns Llama2 Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns Llama2 Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw Llama2 Calculating WER ...done.
+(11/52) BKTY3gIzmFw Llama2 Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw Llama2 Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 Llama2 Calculating WER ...done.
+(12/52) BYdbStLBNk0 Llama2 Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 Llama2 Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM Llama2 Calculating WER ...done.
+(13/52) gtZpmnQd2hM Llama2 Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM Llama2 Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA Llama2 Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA Llama2 Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA Llama2 Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg GPT Calculating WER ...done.
+(15/52) p2b6ZikLlVg GPT Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg GPT Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg Llama2 Calculating WER ...done.
+(15/52) p2b6ZikLlVg Llama2 Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg Llama2 Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating WER ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY Llama2 Calculating WER ...done.
+(16/52) iQxFiFIEGcY Llama2 Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY Llama2 Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M Llama2 Calculating WER ...done.
+(17/52) F7U3J9AJS8M Llama2 Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M Llama2 Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE Llama2 Calculating WER ...done.
+(18/52) 5SLif03E-KE Llama2 Calculating BLEU ...done.
+(18/52) 5SLif03E-KE Llama2 Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU Llama2 Calculating WER ...done.
+(19/52) eTFy8RnUkoU Llama2 Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU Llama2 Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c Llama2 Calculating WER ...done.
+(20/52) zsjvFFKOm3c Llama2 Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c Llama2 Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 GPT Calculating WER ...done.
+(21/52) bi46iDzFs48 GPT Calculating BLEU ...done.
+(21/52) bi46iDzFs48 GPT Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 Llama2 Calculating WER ...done.
+(21/52) bi46iDzFs48 Llama2 Calculating BLEU ...done.
+(21/52) bi46iDzFs48 Llama2 Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating WER ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating BLEU ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw Llama2 Calculating WER ...done.
+(22/52) pPLzAtFiDDw Llama2 Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw Llama2 Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE Llama2 Calculating WER ...done.
+(23/52) 1oPDwCp26bE Llama2 Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE Llama2 Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk Llama2 Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk Llama2 Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk Llama2 Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto Llama2 Calculating WER ...done.
+(25/52) CotW36ApEto Llama2 Calculating BLEU ...done.
+(25/52) CotW36ApEto Llama2 Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc GPT Calculating WER ...done.
+(26/52) Yk5TE-7heoc GPT Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc GPT Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc Llama2 Calculating WER ...done.
+(26/52) Yk5TE-7heoc Llama2 Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc Llama2 Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating WER ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg Llama2 Calculating WER ...done.
+(27/52) Bypor4e04rg Llama2 Calculating BLEU ...done.
+(27/52) Bypor4e04rg Llama2 Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA GPT Calculating WER ...done.
+(28/52) xy8yKkXriuA GPT Calculating BLEU ...done.
+(28/52) xy8yKkXriuA GPT Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA Llama2 Calculating WER ...done.
+(28/52) xy8yKkXriuA Llama2 Calculating BLEU ...done.
+(28/52) xy8yKkXriuA Llama2 Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating WER ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating BLEU ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY Llama2 Calculating WER ...done.
+(29/52) _oxso1pWCHY Llama2 Calculating BLEU ...done.
+(29/52) _oxso1pWCHY Llama2 Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 GPT Calculating WER ...done.
+(30/52) HutXJzlDuA0 GPT Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 GPT Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 Llama2 Calculating WER ...done.
+(30/52) HutXJzlDuA0 Llama2 Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 Llama2 Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating WER ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI Llama2 Calculating WER ...done.
+(31/52) ULFUVwPDkxI Llama2 Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI Llama2 Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k Llama2 Calculating WER ...done.
+(32/52) L7CGonrhG_k Llama2 Calculating BLEU ...done.
+(32/52) L7CGonrhG_k Llama2 Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA Llama2 Calculating WER ...done.
+(33/52) GV_c1YlM9EA Llama2 Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA Llama2 Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating WER ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU Llama2 Calculating WER ...done.
+(34/52) ZMMRNb2xEkU Llama2 Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU Llama2 Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating WER ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 Llama2 Calculating WER ...done.
+(35/52) PvJuocemHS4 Llama2 Calculating BLEU ...done.
+(35/52) PvJuocemHS4 Llama2 Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE Llama2 Calculating WER ...done.
+(36/52) wGWVKkYEHBE Llama2 Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE Llama2 Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 Llama2 Calculating WER ...done.
+(37/52) bKMJm6rbgL4 Llama2 Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 Llama2 Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY Llama2 Calculating WER ...done.
+(38/52) MlPD0dxDDQY Llama2 Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY Llama2 Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA Llama2 Calculating WER ...done.
+(39/52) JgSHli3iKxA Llama2 Calculating BLEU ...done.
+(39/52) JgSHli3iKxA Llama2 Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc GPT Calculating WER ...done.
+(40/52) ewfP4aDKqLc GPT Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc GPT Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc Llama2 Calculating WER ...done.
+(40/52) ewfP4aDKqLc Llama2 Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc Llama2 Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating WER ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs Llama2 Calculating WER ...done.
+(41/52) eRxj35raxOs Llama2 Calculating BLEU ...done.
+(41/52) eRxj35raxOs Llama2 Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM Llama2 Calculating WER ...done.
+(42/52) YwWbuYQhlvM Llama2 Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM Llama2 Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 Llama2 Calculating WER ...done.
+(43/52) c6paDig_s24 Llama2 Calculating BLEU ...done.
+(43/52) c6paDig_s24 Llama2 Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 Llama2 Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 Llama2 Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 Llama2 Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA Llama2 Calculating WER ...done.
+(45/52) gBspmhvWgwA Llama2 Calculating BLEU ...done.
+(45/52) gBspmhvWgwA Llama2 Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 Llama2 Calculating WER ...done.
+(46/52) HnYN7OQe854 Llama2 Calculating BLEU ...done.
+(46/52) HnYN7OQe854 Llama2 Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU Llama2 Calculating WER ...done.
+(47/52) qpyMZYSKSCU Llama2 Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU Llama2 Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE Llama2 Calculating WER ...done.
+(48/52) 1gfm91bu6FE Llama2 Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE Llama2 Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU Llama2 Calculating WER ...done.
+(49/52) CEx2oOtCFSU Llama2 Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU Llama2 Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M Llama2 Calculating WER ...done.
+(50/52) hKy5Ec-HN3M Llama2 Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M Llama2 Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps GPT Calculating WER ...done.
+(51/52) I6h-EmnqOps GPT Calculating BLEU ...done.
+(51/52) I6h-EmnqOps GPT Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps Llama2 Calculating WER ...done.
+(51/52) I6h-EmnqOps Llama2 Calculating BLEU ...done.
+(51/52) I6h-EmnqOps Llama2 Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating WER ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating BLEU ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ Llama2 Calculating WER ...done.
+(52/52) aYRpJoKUBdQ Llama2 Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ Llama2 Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters):
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 4911 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 4838 ms ...done.
+(3/52) 5_tK7VUjcGs Fetching OpenAI GPT caption ...done.
+    Waiting 5954 ms ...done.
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 3728 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 3102 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 5855 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 3542 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 3853 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 4947 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 3381 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 5089 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 4257 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 3686 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 3727 ms ...done.
+(15/52) p2b6ZikLlVg Fetching OpenAI GPT caption ...done.
+    Waiting 3153 ms ...done.
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 4953 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 5410 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 3360 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 3978 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 4751 ms ...done.
+(21/52) bi46iDzFs48 Fetching OpenAI GPT caption ...done.
+    Waiting 3033 ms ...done.
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 5834 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 5435 ms ...done.
+(24/52) Ld2SS2-v3Fk Fetching OpenAI GPT caption ...done.
+    Waiting 4350 ms ...done.
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 3550 ms ...done.
+(26/52) Yk5TE-7heoc Fetching OpenAI GPT caption ...done.
+    Waiting 5851 ms ...done.
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 5189 ms ...done.
+(28/52) xy8yKkXriuA Fetching OpenAI GPT caption ...done.
+    Waiting 4009 ms ...done.
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 5572 ms ...done.
+(30/52) HutXJzlDuA0 Fetching OpenAI GPT caption ...done.
+    Waiting 3368 ms ...done.
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 3059 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 4004 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 5942 ms ...done.
+(34/52) ZMMRNb2xEkU Fetching OpenAI GPT caption ...done.
+    Waiting 4144 ms ...done.
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 5526 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 4968 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 5692 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 4296 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 5806 ms ...done.
+(40/52) ewfP4aDKqLc Fetching OpenAI GPT caption ...done.
+    Waiting 3657 ms ...done.
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 3541 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 3348 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 5993 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 3858 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 4994 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 5846 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 3701 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 5806 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 5516 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 5957 ms ...done.
+(51/52) I6h-EmnqOps Fetching OpenAI GPT caption ...done.
+    Waiting 5294 ms ...done.
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 3981 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating WER ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating WER ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg GPT Calculating WER ...done.
+(15/52) p2b6ZikLlVg GPT Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg GPT Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating WER ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 GPT Calculating WER ...done.
+(21/52) bi46iDzFs48 GPT Calculating BLEU ...done.
+(21/52) bi46iDzFs48 GPT Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating WER ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating BLEU ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc GPT Calculating WER ...done.
+(26/52) Yk5TE-7heoc GPT Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc GPT Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating WER ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA GPT Calculating WER ...done.
+(28/52) xy8yKkXriuA GPT Calculating BLEU ...done.
+(28/52) xy8yKkXriuA GPT Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating WER ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating BLEU ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 GPT Calculating WER ...done.
+(30/52) HutXJzlDuA0 GPT Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 GPT Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating WER ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating WER ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating WER ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc GPT Calculating WER ...done.
+(40/52) ewfP4aDKqLc GPT Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc GPT Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating WER ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps GPT Calculating WER ...done.
+(51/52) I6h-EmnqOps GPT Calculating BLEU ...done.
+(51/52) I6h-EmnqOps GPT Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating WER ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating BLEU ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters):
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 4633 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 5316 ms ...done.
+(3/52) 5_tK7VUjcGs Fetching OpenAI GPT caption ...done.
+    Waiting 3278 ms ...done.
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 3481 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 5622 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 4197 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 3307 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 3301 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 4814 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 4319 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 5145 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 4129 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 3564 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 3519 ms ...done.
+(15/52) p2b6ZikLlVg Fetching OpenAI GPT caption ...done.
+    Waiting 5635 ms ...done.
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 5564 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 3859 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 3340 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 4583 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 3436 ms ...done.
+(21/52) bi46iDzFs48 Fetching OpenAI GPT caption ...done.
+    Waiting 3407 ms ...done.
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 5279 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 4890 ms ...done.
+(24/52) Ld2SS2-v3Fk Fetching OpenAI GPT caption ...done.
+    Waiting 3297 ms ...done.
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 3903 ms ...done.
+(26/52) Yk5TE-7heoc Fetching OpenAI GPT caption ...done.
+    Waiting 4828 ms ...done.
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 5382 ms ...done.
+(28/52) xy8yKkXriuA Fetching OpenAI GPT caption ...done.
+    Waiting 4809 ms ...done.
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 3208 ms ...done.
+(30/52) HutXJzlDuA0 Fetching OpenAI GPT caption ...done.
+    Waiting 4565 ms ...done.
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 3097 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 5479 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 5648 ms ...done.
+(34/52) ZMMRNb2xEkU Fetching OpenAI GPT caption ...done.
+    Waiting 3408 ms ...done.
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 3295 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 5889 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 3688 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 3664 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 5934 ms ...done.
+(40/52) ewfP4aDKqLc Fetching OpenAI GPT caption ...done.
+    Waiting 5715 ms ...done.
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 3262 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 3448 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 5290 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 3959 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 3712 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 4309 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 3201 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 3074 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 5110 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 5383 ms ...done.
+(51/52) I6h-EmnqOps Fetching OpenAI GPT caption ...done.
+    Waiting 5967 ms ...done.
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 5489 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating WER ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs GPT Calculating ROUGE ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating WER ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating BLEU ...done.
+(3/52) 5_tK7VUjcGs YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg GPT Calculating WER ...done.
+(15/52) p2b6ZikLlVg GPT Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg GPT Calculating ROUGE ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating WER ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating BLEU ...done.
+(15/52) p2b6ZikLlVg YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 GPT Calculating WER ...done.
+(21/52) bi46iDzFs48 GPT Calculating BLEU ...done.
+(21/52) bi46iDzFs48 GPT Calculating ROUGE ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating WER ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating BLEU ...done.
+(21/52) bi46iDzFs48 YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk GPT Calculating ROUGE ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating WER ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating BLEU ...done.
+(24/52) Ld2SS2-v3Fk YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc GPT Calculating WER ...done.
+(26/52) Yk5TE-7heoc GPT Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc GPT Calculating ROUGE ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating WER ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating BLEU ...done.
+(26/52) Yk5TE-7heoc YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA GPT Calculating WER ...done.
+(28/52) xy8yKkXriuA GPT Calculating BLEU ...done.
+(28/52) xy8yKkXriuA GPT Calculating ROUGE ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating WER ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating BLEU ...done.
+(28/52) xy8yKkXriuA YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 GPT Calculating WER ...done.
+(30/52) HutXJzlDuA0 GPT Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 GPT Calculating ROUGE ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating WER ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating BLEU ...done.
+(30/52) HutXJzlDuA0 YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating WER ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU GPT Calculating ROUGE ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating WER ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating BLEU ...done.
+(34/52) ZMMRNb2xEkU YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc GPT Calculating WER ...done.
+(40/52) ewfP4aDKqLc GPT Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc GPT Calculating ROUGE ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating WER ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating BLEU ...done.
+(40/52) ewfP4aDKqLc YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps GPT Calculating WER ...done.
+(51/52) I6h-EmnqOps GPT Calculating BLEU ...done.
+(51/52) I6h-EmnqOps GPT Calculating ROUGE ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating WER ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating BLEU ...done.
+(51/52) I6h-EmnqOps YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+New records, with metadata, without LLM captions, without results:
+(1/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(2/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(3/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(4/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(5/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(6/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(7/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(8/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(9/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(10/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(11/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(12/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(13/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(14/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(15/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(16/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(17/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(18/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(19/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(20/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(21/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(22/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(23/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(24/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(25/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(26/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(27/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(28/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(29/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(30/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(31/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(32/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(33/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(34/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(35/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(36/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(37/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(38/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(39/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(40/52) Fetching transcript ...skipped (cc_status = 0, closed captions are unavailable).
+(41/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(42/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(43/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(44/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(45/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(46/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(47/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(48/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(49/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(50/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+(51/52) I6h-EmnqOps Fetching transcript ...skipped (english autogen transcript not found).
+    Waiting 179926 ms ...done.
+(52/52) Fetching transcript ...skipped (cc_status = 200, new closed captions have already been saved).
+New records, GPT 3.5 (new prompt, DHH parameters), without metadata:
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 5948 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 4119 ms ...done.
+(3/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 5724 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 4385 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 4042 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 3322 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 3058 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 5987 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 5878 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 3457 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 5848 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 5741 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 4728 ms ...done.
+(15/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 4728 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 5637 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 4227 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 3299 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 3431 ms ...done.
+(21/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 3025 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 4440 ms ...done.
+(24/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 3309 ms ...done.
+(26/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 3553 ms ...done.
+(28/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 4045 ms ...done.
+(30/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 4111 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 5099 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 5681 ms ...done.
+(34/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 4951 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 3491 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 3897 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 4402 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 3741 ms ...done.
+(40/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 4983 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 5784 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 5880 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 3815 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 3663 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 3945 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 4456 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 3602 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 5340 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 3088 ms ...done.
+(51/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 4985 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+New records, GPT 3.5 (new prompt, DHH parameters), with metadata:
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 3316 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 3866 ms ...done.
+(3/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 5656 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 4815 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 5814 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 3903 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 3467 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 4301 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 3224 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 3508 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 4422 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 5034 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 3657 ms ...done.
+(15/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 3193 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 3291 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 5296 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 5152 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 4723 ms ...done.
+(21/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 5605 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 4556 ms ...done.
+(24/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 3932 ms ...done.
+(26/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 4864 ms ...done.
+(28/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 4823 ms ...done.
+(30/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 3906 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 5235 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 5240 ms ...done.
+(34/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 4694 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 5589 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 3674 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 3695 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 4165 ms ...done.
+(40/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 5237 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 5753 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 4766 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 5145 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 3093 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 4857 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 4500 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 3525 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 4758 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 5916 ms ...done.
+(51/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 3763 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+New records, GPT 5.4 (new prompt), without metadata:
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 3471 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 4661 ms ...done.
+(3/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 5221 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 3466 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 5712 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 5176 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 5546 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 3923 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 4220 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 5813 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 3960 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 5754 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 5102 ms ...done.
+(15/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 3501 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 4062 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 3620 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 5140 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 5273 ms ...done.
+(21/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 3923 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 5917 ms ...done.
+(24/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 5489 ms ...done.
+(26/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 5794 ms ...done.
+(28/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 4723 ms ...done.
+(30/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 4303 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 5434 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 3002 ms ...done.
+(34/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 3359 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 5754 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 3038 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 4587 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 4499 ms ...done.
+(40/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 5400 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 5017 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 3786 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 5968 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 5966 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 3109 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 5630 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 4858 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 4098 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 4398 ms ...done.
+(51/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 4916 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+New records, GPT 5.4 (new prompt), with metadata:
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 3161 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 5043 ms ...done.
+(3/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 5155 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 4676 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 3721 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 4025 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 3084 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 3096 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 3462 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 5762 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 3736 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 3533 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 3165 ms ...done.
+(15/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 3779 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 4444 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 4192 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 3461 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 3259 ms ...done.
+(21/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 3321 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 4422 ms ...done.
+(24/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 5993 ms ...done.
+(26/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 3270 ms ...done.
+(28/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 4112 ms ...done.
+(30/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 3996 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 5933 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 4752 ms ...done.
+(34/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 3666 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 3676 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 4094 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 4929 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 4436 ms ...done.
+(40/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 3719 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 4803 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 3427 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 3275 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 3096 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 4029 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 3176 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 4366 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 4982 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 5169 ms ...done.
+(51/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 5469 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+New records, GPT 5.4 (new prompt), with metadata without top comments:
+(1/52) 9xCwLDC4dTY Fetching OpenAI GPT caption ...done.
+    Waiting 3752 ms ...done.
+(2/52) VpCuw7822EU Fetching OpenAI GPT caption ...done.
+    Waiting 3719 ms ...done.
+(3/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(4/52) FSCVgmLjjQI Fetching OpenAI GPT caption ...done.
+    Waiting 3256 ms ...done.
+(5/52) 2PdxdditT5g Fetching OpenAI GPT caption ...done.
+    Waiting 5690 ms ...done.
+(6/52) oHbf24lL9Z8 Fetching OpenAI GPT caption ...done.
+    Waiting 4240 ms ...done.
+(7/52) I8t7RElYxes Fetching OpenAI GPT caption ...done.
+    Waiting 3622 ms ...done.
+(8/52) cct6HqU0Zu4 Fetching OpenAI GPT caption ...done.
+    Waiting 4335 ms ...done.
+(9/52) cFlSdT2loME Fetching OpenAI GPT caption ...done.
+    Waiting 4646 ms ...done.
+(10/52) W9qh7xL84Ns Fetching OpenAI GPT caption ...done.
+    Waiting 4041 ms ...done.
+(11/52) BKTY3gIzmFw Fetching OpenAI GPT caption ...done.
+    Waiting 5770 ms ...done.
+(12/52) BYdbStLBNk0 Fetching OpenAI GPT caption ...done.
+    Waiting 3789 ms ...done.
+(13/52) gtZpmnQd2hM Fetching OpenAI GPT caption ...done.
+    Waiting 5502 ms ...done.
+(14/52) 6ZIJG8F2RxA Fetching OpenAI GPT caption ...done.
+    Waiting 3220 ms ...done.
+(15/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(16/52) iQxFiFIEGcY Fetching OpenAI GPT caption ...done.
+    Waiting 4188 ms ...done.
+(17/52) F7U3J9AJS8M Fetching OpenAI GPT caption ...done.
+    Waiting 5154 ms ...done.
+(18/52) 5SLif03E-KE Fetching OpenAI GPT caption ...done.
+    Waiting 4857 ms ...done.
+(19/52) eTFy8RnUkoU Fetching OpenAI GPT caption ...done.
+    Waiting 5534 ms ...done.
+(20/52) zsjvFFKOm3c Fetching OpenAI GPT caption ...done.
+    Waiting 5838 ms ...done.
+(21/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(22/52) pPLzAtFiDDw Fetching OpenAI GPT caption ...done.
+    Waiting 3461 ms ...done.
+(23/52) 1oPDwCp26bE Fetching OpenAI GPT caption ...done.
+    Waiting 3302 ms ...done.
+(24/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(25/52) CotW36ApEto Fetching OpenAI GPT caption ...done.
+    Waiting 5737 ms ...done.
+(26/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(27/52) Bypor4e04rg Fetching OpenAI GPT caption ...done.
+    Waiting 4023 ms ...done.
+(28/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(29/52) _oxso1pWCHY Fetching OpenAI GPT caption ...done.
+    Waiting 5762 ms ...done.
+(30/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(31/52) ULFUVwPDkxI Fetching OpenAI GPT caption ...done.
+    Waiting 5983 ms ...done.
+(32/52) L7CGonrhG_k Fetching OpenAI GPT caption ...done.
+    Waiting 3294 ms ...done.
+(33/52) GV_c1YlM9EA Fetching OpenAI GPT caption ...done.
+    Waiting 4723 ms ...done.
+(34/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(35/52) PvJuocemHS4 Fetching OpenAI GPT caption ...done.
+    Waiting 4195 ms ...done.
+(36/52) wGWVKkYEHBE Fetching OpenAI GPT caption ...done.
+    Waiting 3928 ms ...done.
+(37/52) bKMJm6rbgL4 Fetching OpenAI GPT caption ...done.
+    Waiting 4028 ms ...done.
+(38/52) MlPD0dxDDQY Fetching OpenAI GPT caption ...done.
+    Waiting 3339 ms ...done.
+(39/52) JgSHli3iKxA Fetching OpenAI GPT caption ...done.
+    Waiting 5372 ms ...done.
+(40/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(41/52) eRxj35raxOs Fetching OpenAI GPT caption ...done.
+    Waiting 5814 ms ...done.
+(42/52) YwWbuYQhlvM Fetching OpenAI GPT caption ...done.
+    Waiting 4687 ms ...done.
+(43/52) c6paDig_s24 Fetching OpenAI GPT caption ...done.
+    Waiting 3195 ms ...done.
+(44/52) 34LqdqM6Kg4 Fetching OpenAI GPT caption ...done.
+    Waiting 5598 ms ...done.
+(45/52) gBspmhvWgwA Fetching OpenAI GPT caption ...done.
+    Waiting 4236 ms ...done.
+(46/52) HnYN7OQe854 Fetching OpenAI GPT caption ...done.
+    Waiting 5839 ms ...done.
+(47/52) qpyMZYSKSCU Fetching OpenAI GPT caption ...done.
+    Waiting 3615 ms ...done.
+(48/52) 1gfm91bu6FE Fetching OpenAI GPT caption ...done.
+    Waiting 4621 ms ...done.
+(49/52) CEx2oOtCFSU Fetching OpenAI GPT caption ...done.
+    Waiting 5584 ms ...done.
+(50/52) hKy5Ec-HN3M Fetching OpenAI GPT caption ...done.
+    Waiting 5345 ms ...done.
+(51/52) Fetching OpenAI GPT caption ...skipped (YouTube caption must be a non-empty string).
+(52/52) aYRpJoKUBdQ Fetching OpenAI GPT caption ...done.
+    Waiting 5622 ms ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating WER ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY GPT Calculating ROUGE ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating WER ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating BLEU ...done.
+(1/52) 9xCwLDC4dTY YouTube ASR Calculating ROUGE ...done.
+(2/52) VpCuw7822EU GPT Calculating WER ...done.
+(2/52) VpCuw7822EU GPT Calculating BLEU ...done.
+(2/52) VpCuw7822EU GPT Calculating ROUGE ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating WER ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating BLEU ...done.
+(2/52) VpCuw7822EU YouTube ASR Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI GPT Calculating WER ...done.
+(4/52) FSCVgmLjjQI GPT Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI GPT Calculating ROUGE ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating WER ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating BLEU ...done.
+(4/52) FSCVgmLjjQI YouTube ASR Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g GPT Calculating WER ...done.
+(5/52) 2PdxdditT5g GPT Calculating BLEU ...done.
+(5/52) 2PdxdditT5g GPT Calculating ROUGE ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating WER ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating BLEU ...done.
+(5/52) 2PdxdditT5g YouTube ASR Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating WER ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 GPT Calculating ROUGE ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating WER ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating BLEU ...done.
+(6/52) oHbf24lL9Z8 YouTube ASR Calculating ROUGE ...done.
+(7/52) I8t7RElYxes GPT Calculating WER ...done.
+(7/52) I8t7RElYxes GPT Calculating BLEU ...done.
+(7/52) I8t7RElYxes GPT Calculating ROUGE ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating WER ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating BLEU ...done.
+(7/52) I8t7RElYxes YouTube ASR Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating WER ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 GPT Calculating ROUGE ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating WER ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating BLEU ...done.
+(8/52) cct6HqU0Zu4 YouTube ASR Calculating ROUGE ...done.
+(9/52) cFlSdT2loME GPT Calculating WER ...done.
+(9/52) cFlSdT2loME GPT Calculating BLEU ...done.
+(9/52) cFlSdT2loME GPT Calculating ROUGE ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating WER ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating BLEU ...done.
+(9/52) cFlSdT2loME YouTube ASR Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns GPT Calculating WER ...done.
+(10/52) W9qh7xL84Ns GPT Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns GPT Calculating ROUGE ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating WER ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating BLEU ...done.
+(10/52) W9qh7xL84Ns YouTube ASR Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw GPT Calculating WER ...done.
+(11/52) BKTY3gIzmFw GPT Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw GPT Calculating ROUGE ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating WER ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating BLEU ...done.
+(11/52) BKTY3gIzmFw YouTube ASR Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 GPT Calculating WER ...done.
+(12/52) BYdbStLBNk0 GPT Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 GPT Calculating ROUGE ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating WER ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating BLEU ...done.
+(12/52) BYdbStLBNk0 YouTube ASR Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM GPT Calculating WER ...done.
+(13/52) gtZpmnQd2hM GPT Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM GPT Calculating ROUGE ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating WER ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating BLEU ...done.
+(13/52) gtZpmnQd2hM YouTube ASR Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA GPT Calculating ROUGE ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating WER ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating BLEU ...done.
+(14/52) 6ZIJG8F2RxA YouTube ASR Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY GPT Calculating WER ...done.
+(16/52) iQxFiFIEGcY GPT Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY GPT Calculating ROUGE ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating WER ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating BLEU ...done.
+(16/52) iQxFiFIEGcY YouTube ASR Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M GPT Calculating WER ...done.
+(17/52) F7U3J9AJS8M GPT Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M GPT Calculating ROUGE ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating WER ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating BLEU ...done.
+(17/52) F7U3J9AJS8M YouTube ASR Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE GPT Calculating WER ...done.
+(18/52) 5SLif03E-KE GPT Calculating BLEU ...done.
+(18/52) 5SLif03E-KE GPT Calculating ROUGE ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating WER ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating BLEU ...done.
+(18/52) 5SLif03E-KE YouTube ASR Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU GPT Calculating WER ...done.
+(19/52) eTFy8RnUkoU GPT Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU GPT Calculating ROUGE ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating WER ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating BLEU ...done.
+(19/52) eTFy8RnUkoU YouTube ASR Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c GPT Calculating WER ...done.
+(20/52) zsjvFFKOm3c GPT Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c GPT Calculating ROUGE ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating WER ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating BLEU ...done.
+(20/52) zsjvFFKOm3c YouTube ASR Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw GPT Calculating WER ...done.
+(22/52) pPLzAtFiDDw GPT Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw GPT Calculating ROUGE ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating WER ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating BLEU ...done.
+(22/52) pPLzAtFiDDw YouTube ASR Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE GPT Calculating WER ...done.
+(23/52) 1oPDwCp26bE GPT Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE GPT Calculating ROUGE ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating WER ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating BLEU ...done.
+(23/52) 1oPDwCp26bE YouTube ASR Calculating ROUGE ...done.
+(25/52) CotW36ApEto GPT Calculating WER ...done.
+(25/52) CotW36ApEto GPT Calculating BLEU ...done.
+(25/52) CotW36ApEto GPT Calculating ROUGE ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating WER ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating BLEU ...done.
+(25/52) CotW36ApEto YouTube ASR Calculating ROUGE ...done.
+(27/52) Bypor4e04rg GPT Calculating WER ...done.
+(27/52) Bypor4e04rg GPT Calculating BLEU ...done.
+(27/52) Bypor4e04rg GPT Calculating ROUGE ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating WER ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating BLEU ...done.
+(27/52) Bypor4e04rg YouTube ASR Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY GPT Calculating WER ...done.
+(29/52) _oxso1pWCHY GPT Calculating BLEU ...done.
+(29/52) _oxso1pWCHY GPT Calculating ROUGE ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating WER ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating BLEU ...done.
+(29/52) _oxso1pWCHY YouTube ASR Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI GPT Calculating WER ...done.
+(31/52) ULFUVwPDkxI GPT Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI GPT Calculating ROUGE ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating WER ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating BLEU ...done.
+(31/52) ULFUVwPDkxI YouTube ASR Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k GPT Calculating WER ...done.
+(32/52) L7CGonrhG_k GPT Calculating BLEU ...done.
+(32/52) L7CGonrhG_k GPT Calculating ROUGE ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating WER ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating BLEU ...done.
+(32/52) L7CGonrhG_k YouTube ASR Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA GPT Calculating WER ...done.
+(33/52) GV_c1YlM9EA GPT Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA GPT Calculating ROUGE ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating WER ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating BLEU ...done.
+(33/52) GV_c1YlM9EA YouTube ASR Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 GPT Calculating WER ...done.
+(35/52) PvJuocemHS4 GPT Calculating BLEU ...done.
+(35/52) PvJuocemHS4 GPT Calculating ROUGE ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating WER ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating BLEU ...done.
+(35/52) PvJuocemHS4 YouTube ASR Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE GPT Calculating WER ...done.
+(36/52) wGWVKkYEHBE GPT Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE GPT Calculating ROUGE ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating WER ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating BLEU ...done.
+(36/52) wGWVKkYEHBE YouTube ASR Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating WER ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 GPT Calculating ROUGE ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating WER ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating BLEU ...done.
+(37/52) bKMJm6rbgL4 YouTube ASR Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY GPT Calculating WER ...done.
+(38/52) MlPD0dxDDQY GPT Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY GPT Calculating ROUGE ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating WER ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating BLEU ...done.
+(38/52) MlPD0dxDDQY YouTube ASR Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA GPT Calculating WER ...done.
+(39/52) JgSHli3iKxA GPT Calculating BLEU ...done.
+(39/52) JgSHli3iKxA GPT Calculating ROUGE ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating WER ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating BLEU ...done.
+(39/52) JgSHli3iKxA YouTube ASR Calculating ROUGE ...done.
+(41/52) eRxj35raxOs GPT Calculating WER ...done.
+(41/52) eRxj35raxOs GPT Calculating BLEU ...done.
+(41/52) eRxj35raxOs GPT Calculating ROUGE ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating WER ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating BLEU ...done.
+(41/52) eRxj35raxOs YouTube ASR Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM GPT Calculating WER ...done.
+(42/52) YwWbuYQhlvM GPT Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM GPT Calculating ROUGE ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating WER ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating BLEU ...done.
+(42/52) YwWbuYQhlvM YouTube ASR Calculating ROUGE ...done.
+(43/52) c6paDig_s24 GPT Calculating WER ...done.
+(43/52) c6paDig_s24 GPT Calculating BLEU ...done.
+(43/52) c6paDig_s24 GPT Calculating ROUGE ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating WER ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating BLEU ...done.
+(43/52) c6paDig_s24 YouTube ASR Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 GPT Calculating ROUGE ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating WER ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating BLEU ...done.
+(44/52) 34LqdqM6Kg4 YouTube ASR Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA GPT Calculating WER ...done.
+(45/52) gBspmhvWgwA GPT Calculating BLEU ...done.
+(45/52) gBspmhvWgwA GPT Calculating ROUGE ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating WER ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating BLEU ...done.
+(45/52) gBspmhvWgwA YouTube ASR Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 GPT Calculating WER ...done.
+(46/52) HnYN7OQe854 GPT Calculating BLEU ...done.
+(46/52) HnYN7OQe854 GPT Calculating ROUGE ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating WER ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating BLEU ...done.
+(46/52) HnYN7OQe854 YouTube ASR Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU GPT Calculating WER ...done.
+(47/52) qpyMZYSKSCU GPT Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU GPT Calculating ROUGE ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating WER ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating BLEU ...done.
+(47/52) qpyMZYSKSCU YouTube ASR Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE GPT Calculating WER ...done.
+(48/52) 1gfm91bu6FE GPT Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE GPT Calculating ROUGE ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating WER ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating BLEU ...done.
+(48/52) 1gfm91bu6FE YouTube ASR Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU GPT Calculating WER ...done.
+(49/52) CEx2oOtCFSU GPT Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU GPT Calculating ROUGE ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating WER ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating BLEU ...done.
+(49/52) CEx2oOtCFSU YouTube ASR Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating WER ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M GPT Calculating ROUGE ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating WER ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating BLEU ...done.
+(50/52) hKy5Ec-HN3M YouTube ASR Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating WER ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ GPT Calculating ROUGE ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating WER ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating BLEU ...done.
+(52/52) aYRpJoKUBdQ YouTube ASR Calculating ROUGE ...done.
+Difference of
+"Old records (DHH), reevaluated" versus
+"Old records (DHH), duplicated":
+Difference of
+"Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)" versus
+"Old records (DHH), reevaluated":
+Difference of
+"Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" versus
+"Old records (DHH), reevaluated":
+Difference of
+"Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" versus
+"Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)":
+Difference of
+"New records, GPT 3.5 (new prompt, DHH parameters), without metadata" versus
+"Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)":
+Difference of
+"New records, GPT 3.5 (new prompt, DHH parameters), with metadata" versus
+"New records, GPT 3.5 (new prompt, DHH parameters), without metadata":
+Difference of
+"New records, GPT 5.4 (new prompt), without metadata" versus
+"New records, GPT 3.5 (new prompt, DHH parameters), without metadata":
+Difference of
+"New records, GPT 5.4 (new prompt), with metadata" versus
+"New records, GPT 3.5 (new prompt, DHH parameters), with metadata":
+Difference of
+"New records, GPT 5.4 (new prompt), with metadata" versus
+"New records, GPT 5.4 (new prompt), without metadata":
+Difference of
+"New records, GPT 5.4 (new prompt), with metadata without top comments" versus
+"New records, GPT 5.4 (new prompt), with metadata":
+Difference of
+"New records, GPT 5.4 (new prompt), with metadata without top comments" versus
+"New records, GPT 5.4 (new prompt), without metadata":
+
+Took 53 minutes 30 seconds.

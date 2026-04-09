@@ -1,0 +1,53 @@
+Video_Id	CC_Status	Note	Category	Label	Metadata	youtube_caption	Ground_Truth	Chatgpt_caption	Llama2_caption	wer_gpt	bleu_gpt	rouge1_gpt	rouge2_gpt	rougeL_gpt	rougeLsum_gpt	wer_llama2	bleu_llama2	rouge1_llama2	rouge2_llama2	rougeL_llama2	rougeLsum_llama2	wer_asr	bleu_asr	rouge1_asr	rouge2_asr	rougeL_asr	rougeLsum_asr
+9xCwLDC4dTY	200		Cooking	1						-2.61	0.03	0.026	0.033	0.026	0.026							0.0	0.0	0.0	0.0	0.0	0.0
+VpCuw7822EU	200		Cooking	2						-20.11	0.329	-0.003	-0.008	-0.003	-0.003							0.0	0.0	0.0	0.0	0.0	0.0
+5_tK7VUjcGs	0	cc disabled	Cooking	3																							
+FSCVgmLjjQI	200		Cooking	4						-0.22	0.005	0.0	0.0	0.0	-0.012							0.0	0.0	0.0	0.0	0.0	0.0
+2PdxdditT5g	200		Cooking	5						0.69	0.007	-0.008	-0.014	-0.008	-0.008							0.0	0.0	0.0	0.0	0.0	0.0
+oHbf24lL9Z8	200		Cooking	6						0.25	-0.009	0.003	0.0	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+I8t7RElYxes	200		Cooking	7						-12.76	0.225	-0.004	-0.006	-0.004	-0.004							0.0	0.0	0.0	0.0	0.0	0.0
+cct6HqU0Zu4	200		Cooking	8						14.58	-0.28	0.004	0.008	0.004	0.004							0.0	0.0	0.0	0.0	0.0	0.0
+cFlSdT2loME	200		Cooking	9						-1.07	0.024	0.01	0.02	0.01	0.01							0.0	0.0	0.0	0.0	0.0	0.0
+W9qh7xL84Ns	200		Cooking	10						3.31	-0.033	0.0	0.019	0.006	0.006							0.0	0.0	0.0	0.0	0.0	0.0
+BKTY3gIzmFw	200		Education	1						-8.93	0.152	0.019	0.059	0.019	0.019							0.0	0.0	0.0	0.0	0.0	0.0
+BYdbStLBNk0	200		Education	2						0.55	-0.029	0.0	0.0	0.0	0.011							0.0	0.0	0.0	0.0	0.0	0.0
+gtZpmnQd2hM	200		Education	3						0.0	-0.004	-0.007	-0.012	-0.007	-0.007							0.0	0.0	0.0	0.0	0.0	0.0
+6ZIJG8F2RxA	200		Education	4						0.0	-0.001	0.017	0.023	0.017	0.023							0.0	0.0	0.0	0.0	0.0	0.0
+p2b6ZikLlVg	0	does not exist	Education	5																							
+iQxFiFIEGcY	200	corrected Video_Id	Education	6						6.04	-0.139	0.004	0.009	0.004	0.004							0.0	0.0	0.0	0.0	0.0	0.0
+F7U3J9AJS8M	200		Education	7						4.43	-0.025	-0.012	-0.015	-0.013	-0.013							0.0	0.0	0.0	0.0	0.0	0.0
+5SLif03E-KE	200		Education	8						0.0	-0.006	0.0	0.0	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+eTFy8RnUkoU	200		Education	9						1.22	-0.026	-0.015	-0.024	-0.012	-0.018							0.0	0.0	0.0	0.0	0.0	0.0
+zsjvFFKOm3c	200		Education	10						0.86	-0.011	-0.004	-0.009	-0.004	-0.004							0.0	0.0	0.0	0.0	0.0	0.0
+bi46iDzFs48	0	wrong video	Entertainment	1																							
+pPLzAtFiDDw	200		Entertainment	2						6.31	-0.078	0.008	0.009	0.008	0.008							0.0	0.0	0.0	0.0	0.0	0.0
+1oPDwCp26bE	200		Entertainment	3						0.69	-0.05	0.015	0.015	0.015	0.015							0.0	0.0	0.0	0.0	0.0	0.0
+Ld2SS2-v3Fk	0	does not exist	Entertainment	4																							
+CotW36ApEto	200		Entertainment	5						8.24	-0.088	-0.009	-0.038	-0.019	-0.019							0.0	0.0	0.0	0.0	0.0	0.0
+Yk5TE-7heoc	0	does not exist	Entertainment	6																							
+Bypor4e04rg	200		Entertainment	7						0.0	0.0	0.0	0.0	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+xy8yKkXriuA	0	does not exist	Entertainment	8																							
+_oxso1pWCHY	200	corrected Video_Id	Entertainment	9						1.63	0.017	0.009	0.026	0.009	0.009							0.0	0.0	0.0	0.0	0.0	0.0
+HutXJzlDuA0	0	does not exist	Entertainment	10																							
+ULFUVwPDkxI	200		News	1						1.46	-0.024	-0.008	-0.015	-0.008	0.018							0.0	0.0	0.0	0.0	0.0	0.0
+L7CGonrhG_k	200		News	2						-0.65	0.039	-0.006	-0.006	-0.006	-0.006							0.0	0.0	0.0	0.0	0.0	0.0
+GV_c1YlM9EA	200		News	3						0.0	0.001	0.002	0.004	0.002	0.002							0.0	0.0	0.0	0.0	0.0	0.0
+ZMMRNb2xEkU	0	cc disabled	News	4																							
+PvJuocemHS4	200		News	5						-3.12	0.036	0.002	0.004	0.002	-0.013							0.0	0.0	0.0	0.0	0.0	0.0
+wGWVKkYEHBE	200		News	6						-0.79	0.006	0.004	0.009	0.004	0.004							0.0	0.0	0.0	0.0	0.0	0.0
+bKMJm6rbgL4	200		News	7						0.84	-0.008	-0.004	-0.013	-0.004	-0.004							0.0	0.0	0.0	0.0	0.0	0.0
+MlPD0dxDDQY	200		News	8						-0.43	0.014	0.013	0.013	0.009	0.034							0.0	0.0	0.0	0.0	0.0	0.0
+JgSHli3iKxA	200		News	9						0.84	-0.009	-0.004	-0.008	-0.004	-0.004							0.0	0.0	0.0	0.0	0.0	0.0
+ewfP4aDKqLc	0	cc disabled	News	10																							
+eRxj35raxOs	200		Travel	1						0.61	-0.019	-0.02	-0.033	-0.021	-0.021							0.0	0.0	0.0	0.0	0.0	0.0
+YwWbuYQhlvM	200		Travel	2						1.63	-0.013	-0.008	-0.014	-0.008	-0.008							0.0	0.0	0.0	0.0	0.0	0.0
+c6paDig_s24	200		Travel	3						1.05	-0.022	0.0	0.0	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+34LqdqM6Kg4	200		Travel	4						1.92	-0.021	-0.006	-0.006	-0.006	-0.006							0.0	0.0	0.0	0.0	0.0	0.0
+gBspmhvWgwA	200		Travel	5						0.0	0.0	0.0	0.0	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+HnYN7OQe854	200		Travel	6						0.0	0.015	-0.005	-0.005	-0.005	-0.005							0.0	0.0	0.0	0.0	0.0	0.0
+qpyMZYSKSCU	200		Travel	7						0.36	0.006	0.009	0.025	0.02	0.031							0.0	0.0	0.0	0.0	0.0	0.0
+1gfm91bu6FE	200		Travel	8						-2.16	0.023	0.018	0.025	0.018	0.018							0.0	0.0	0.0	0.0	0.0	0.0
+CEx2oOtCFSU	200		Travel	9						-1.01	0.012	-0.005	-0.01	-0.005	-0.005							0.0	0.0	0.0	0.0	0.0	0.0
+hKy5Ec-HN3M	200		Travel	10						0.0	0.009	0.0	0.006	0.0	0.0							0.0	0.0	0.0	0.0	0.0	0.0
+I6h-EmnqOps	404		Travel	11																							
+aYRpJoKUBdQ	200		Travel	12						1.57	-0.022	0.003	0.003	0.003	0.003							0.0	0.0	0.0	0.0	0.0	0.0
