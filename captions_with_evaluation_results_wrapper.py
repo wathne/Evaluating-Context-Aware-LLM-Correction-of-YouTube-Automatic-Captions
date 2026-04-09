@@ -6,7 +6,7 @@
 # the "youtube_caption" column. New columns "CC_Status", "Note", "Metadata",
 # "wer_asr", "bleu_asr", "rouge1_asr", "rouge2_asr", "rougeL_asr", and
 # "rougeLsum_asr" have been added:
-# "CC_Status" - Status code for new closed captions.
+# "CC_Status" - Status code for new closed captions, see "./yt_transcripts.py".
 # "Note" - Anything noteworthy or an explanation for the CC status.
 # "Metadata" - JSON representation of video metadata: title, description, and
 # top comments (relevance).
