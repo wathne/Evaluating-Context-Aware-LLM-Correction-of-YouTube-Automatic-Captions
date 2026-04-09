@@ -6,3 +6,10 @@ python-youtube
 anthropic
 google-genai
 openai
+jiwer
+absl-py
+nltk
+numpy
+six
+rouge_score
+evaluate
