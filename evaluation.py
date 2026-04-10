@@ -53,12 +53,12 @@ from helpers import int_or_none
 from helpers import int_or_zero_if_none
 from helpers import str_or_none_if_empty
 from jiwer import wer
+from llm_openai_gpt import DEFAULT_MODEL
+from llm_openai_gpt import generate_openai_gpt_caption_for_records
+from llm_openai_gpt import GPT_5_4_MODEL
 from math import log10
 from yt_metadata import fetch_metadata_for_records
 from yt_transcripts import fetch_transcripts_for_records
-from llm_openai_gpt import DEFAULT_MODEL
-from llm_openai_gpt import GPT_5_4_MODEL
-from llm_openai_gpt import generate_openai_gpt_caption_for_records
 
 
 # Local BLEU metric.
