@@ -40,7 +40,7 @@ This step is optional and you can skip it. The fetch_metadata_for_records()
 function is currently being skipped. If you still want to refetch all new video
 metadata, then you need to uncomment the fetch_metadata_for_records() function
 within the main() function of the evaluation module (evaluation.py), currently
-lines 1013 to 1017.
+lines 848 to 852.
 
 The YouTube video metadata module requires a Google API key for YouTube video
 metadata.

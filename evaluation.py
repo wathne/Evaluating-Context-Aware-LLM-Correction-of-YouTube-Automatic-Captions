@@ -47,6 +47,9 @@ from captions_with_evaluation_results_wrapper import Record
 from captions_with_evaluation_results_wrapper import RecordList
 from evaluate import EvaluationModule
 from evaluate import load as load_evaluation_module
+from evaluation_specs import DIFF_TOLERANCE
+from evaluation_specs import Specification
+from evaluation_specs import specifications
 from helpers import float_or_none
 from helpers import float_or_zero_if_none
 from helpers import int_or_none
@@ -70,194 +73,6 @@ METRIC_BLEU: str = "./metrics/bleu/bleu.py"
 # Pulled from Hugging Face Evaluate repo, 2026 April 9, at commit a7dd338:
 # https://github.com/huggingface/evaluate/tree/a7dd338/metrics/rouge
 METRIC_ROUGE: str = "./metrics/rouge/rouge.py"
-
-DIR: str = "./captions_with_evaluation_results/"
-BASE: str = "captions_with_evaluation_results"
-EXT: str = ".tsv"
-
-# "./captions_with_evaluation_results/captions_with_evaluation_results.tsv"
-DEFAULT_PATH: str = DIR + BASE + EXT
-
-# Path: Old records (DHH), duplicated.
-# Combination of DHH records and DHH sources (corrected).
-# Fetching: NO, keep old youtube captions (DHH).
-# Metadata: NO.
-# Prompting: NO, keep old GPT and Llama captions (DHH).
-# Evaluation: NO, keep old evaluation results (DHH).
-OLD_DUPLICATED_PATH: str = DIR + BASE + "_old_duplicated" + EXT
-
-# Path: Old records (DHH), reevaluated.
-# Combination of DHH records and DHH sources (corrected).
-# Fetching: NO, keep old youtube captions (DHH).
-# Metadata: NO.
-# Prompting: NO, keep old GPT and Llama captions (DHH).
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-OLD_REEVALUATED_PATH: str = DIR + BASE + "_old_reevaluated" + EXT
-
-# Path: Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters).
-# Combination of DHH records and DHH sources (corrected).
-# Fetching: NO, keep old youtube captions (DHH).
-# Metadata: NO, no metadata and no category in prompt.
-# Prompting: YES, prompt GPT 3.5 with DHH prompt and DHH parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-OLD_REPROMPT_GPT_3_5_DHH_PATH: str = (
-    DIR + BASE + "_old_reprompt_gpt_3_5_dhh" + EXT
-)
-
-# Path: Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters).
-# Combination of DHH records and DHH sources (corrected).
-# Fetching: NO, keep old youtube captions (DHH).
-# Metadata: NO, no metadata and no category in prompt.
-# Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-OLD_REPROMPT_GPT_3_5_NEW_PATH: str = (
-    DIR + BASE + "_old_reprompt_gpt_3_5_new" + EXT
-)
-
-# Path: New records, with metadata, without LLM captions, without results.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: YES.
-# Prompting: NO, all LLM captions are cleared.
-# Evaluation: NO, all evaluation results are cleared.
-NEW_NO_LLM_PATH: str = DIR + "captions_new_no_llm" + EXT
-
-# Path: New records, GPT 3.5 (new prompt, DHH parameters), without metadata.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: NO, no metadata and no category in prompt.
-# Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-NEW_GPT_3_5_NO_META_PATH: str = DIR + BASE + "_new_gpt_3_5_no_metadata" + EXT
-
-# Path: New records, GPT 3.5 (new prompt, DHH parameters), with metadata.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: YES, all metadata in prompt, no category in prompt.
-# Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-NEW_GPT_3_5_META_PATH: str = DIR + BASE + "_new_gpt_3_5_metadata" + EXT
-
-# Path: New records, GPT 5.4 (new prompt), without metadata.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: NO, no metadata and no category in prompt.
-# Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-NEW_GPT_5_4_NO_META_PATH: str = DIR + BASE + "_new_gpt_5_4_no_metadata" + EXT
-
-# Path: New records, GPT 5.4 (new prompt), with metadata.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: YES, all metadata in prompt, no category in prompt.
-# Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-NEW_GPT_5_4_META_PATH: str = DIR + BASE + "_new_gpt_5_4_metadata" + EXT
-
-# Path: New records, GPT 5.4 (new prompt), with metadata without top comments.
-# Based on combination of DHH records and DHH sources (corrected).
-# Fetching: YES, fetch new available transcripts and blacklist unavailable.
-# Metadata: YES, metadata without top comments in prompt, no category in prompt.
-# Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
-# Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-NEW_GPT_5_4_META_NO_COMMENTS_PATH: str = (
-    DIR + BASE + "_new_gpt_5_4_metadata_no_comments" + EXT
-)
-
-# Path: Difference of
-# "Old records (DHH), reevaluated" versus
-# "Old records (DHH), duplicated".
-# See also the DIFF_TOLERANCE constant.
-DIFF_OLD_REEVALUATED_VS_OLD_DUPLICATED_PATH: str = (
-    DIR + "diff_old_reevaluated_vs_old_duplicated" + EXT
-)
-
-# Path: Difference of
-# "Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)" versus
-# "Old records (DHH), reevaluated".
-# See also the DIFF_TOLERANCE constant.
-DIFF_OLD_REPROMPT_GPT_3_5_DHH_VS_OLD_REEVALUATED_PATH: str = (
-    DIR + "diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated" + EXT
-)
-
-# Path: Difference of
-# "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" versus
-# "Old records (DHH), reevaluated".
-# See also the DIFF_TOLERANCE constant.
-DIFF_OLD_REPROMPT_GPT_3_5_NEW_VS_OLD_REEVALUATED_PATH: str = (
-    DIR + "diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated" + EXT
-)
-
-# Path: Difference of
-# "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" versus
-# "Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)".
-# See also the DIFF_TOLERANCE constant.
-DIFF_OLD_REPROMPT_GPT_3_5_NEW_VS_OLD_REPROMPT_GPT_3_5_DHH_PATH: str = (
-    DIR + "diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 3.5 (new prompt, DHH parameters), without metadata" versus
-# "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_3_5_NO_META_VS_OLD_REPROMPT_GPT_3_5_NEW_PATH: str = (
-    DIR + "diff_new_gpt_3_5_no_metadata_vs_old_reprompt_gpt_3_5_new" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 3.5 (new prompt, DHH parameters), with metadata" versus
-# "New records, GPT 3.5 (new prompt, DHH parameters), without metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_3_5_META_VS_NEW_GPT_3_5_NO_META_PATH: str = (
-    DIR + "diff_new_gpt_3_5_metadata_vs_new_gpt_3_5_no_metadata" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 5.4 (new prompt), without metadata" versus
-# "New records, GPT 3.5 (new prompt, DHH parameters), without metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_5_4_NO_META_VS_NEW_GPT_3_5_NO_META_PATH: str = (
-    DIR + "diff_new_gpt_5_4_no_metadata_vs_new_gpt_3_5_no_metadata" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 5.4 (new prompt), with metadata" versus
-# "New records, GPT 3.5 (new prompt, DHH parameters), with metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_5_4_META_VS_NEW_GPT_3_5_META_PATH: str = (
-    DIR + "diff_new_gpt_5_4_metadata_vs_new_gpt_3_5_metadata" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 5.4 (new prompt), with metadata" versus
-# "New records, GPT 5.4 (new prompt), without metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_5_4_META_VS_NEW_GPT_5_4_NO_META_PATH: str = (
-    DIR + "diff_new_gpt_5_4_metadata_vs_new_gpt_5_4_no_metadata" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 5.4 (new prompt), with metadata without top comments" versus
-# "New records, GPT 5.4 (new prompt), with metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_5_4_META_NO_COMMENTS_VS_NEW_GPT_5_4_META_PATH: str = (
-    DIR + "diff_new_gpt_5_4_metadata_no_comments_vs_new_gpt_5_4_metadata" + EXT
-)
-
-# Path: Difference of
-# "New records, GPT 5.4 (new prompt), with metadata without top comments" versus
-# "New records, GPT 5.4 (new prompt), without metadata".
-# See also the DIFF_TOLERANCE constant.
-DIFF_NEW_GPT_5_4_META_NO_COMMENTS_VS_NEW_GPT_5_4_NO_META_PATH: str = (
-    DIR +
-    "diff_new_gpt_5_4_metadata_no_comments_vs_new_gpt_5_4_no_metadata" +
-    EXT
-)
-
-# Difference tolerance.
-# A difference is taken as zero if the absolute difference is less than the
-# specified tolerance. This is to remove noise and floating point artifacts.
-DIFF_TOLERANCE: float = 0.001
 
 
 # Functionally the same as the calculate_wer function of the DHH study.
@@ -794,20 +609,23 @@ def main() -> None:
     # Metadata: NO.
     # Prompting: NO, keep old GPT and Llama captions (DHH).
     # Evaluation: NO, keep old evaluation results (DHH).
-    records_old_duplicated: RecordList = RecordList(
-        tsv_file_path=None,
+    old_duplicated: Specification = specifications["old_duplicated"]
+
+    # Initializes an empty Recordlist.
+    old_duplicated.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads DHH records, video ID, and extra data from the combination of DHH
     # records and DHH sources (corrected).
     initialize_records_from_dhh_records_and_sources(
-        records=records_old_duplicated,
+        records=old_duplicated.records,
     )
 
     # Saves a copy of the records.
-    records_old_duplicated.save(
-        tsv_file_path=OLD_DUPLICATED_PATH,
-        skip_asr_results=True,
+    old_duplicated.records.save(
+        tsv_file_path=old_duplicated.path,
+        skip_asr_results=True, # True: omit YouTube ASR result columns.
     )
 
     ############################################################################
@@ -820,24 +638,27 @@ def main() -> None:
     # Metadata: NO.
     # Prompting: NO, keep old GPT and Llama captions (DHH).
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_old_reevaluated: RecordList = RecordList(
-        tsv_file_path=None,
+    old_reevaluated: Specification = specifications["old_reevaluated"]
+
+    # Initializes an empty Recordlist.
+    old_reevaluated.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the duplicated old records that were saved earlier.
-    records_old_reevaluated.load(
-        tsv_file_path=OLD_DUPLICATED_PATH,
+    old_reevaluated.records.load(
+        tsv_file_path=specifications["old_duplicated"].path,
         clear=True,
     )
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_old_reevaluated,
+        records=old_reevaluated.records,
     )
 
     # Saves a copy of the records.
-    records_old_reevaluated.save(
-        tsv_file_path=OLD_REEVALUATED_PATH,
+    old_reevaluated.records.save(
+        tsv_file_path=old_reevaluated.path,
         skip_asr_results=False,
     )
 
@@ -851,26 +672,31 @@ def main() -> None:
     # Metadata: NO, no metadata and no category in prompt.
     # Prompting: YES, prompt GPT 3.5 with DHH prompt and DHH parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_old_reprompt_gpt_3_5_dhh: RecordList = RecordList(
-        tsv_file_path=None,
+    old_reprompt_gpt_3_5_dhh: Specification = specifications[
+        "old_reprompt_gpt_3_5_dhh"
+    ]
+
+    # Initializes an empty Recordlist.
+    old_reprompt_gpt_3_5_dhh.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the duplicated old records that were saved earlier.
-    records_old_reprompt_gpt_3_5_dhh.load(
-        tsv_file_path=OLD_DUPLICATED_PATH,
+    old_reprompt_gpt_3_5_dhh.records.load(
+        tsv_file_path=specifications["old_duplicated"].path,
         clear=True,
     )
 
     # Clears old LLM captions.
     clear_llm_captions_from_records(
-        records=records_old_reprompt_gpt_3_5_dhh,
+        records=old_reprompt_gpt_3_5_dhh.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 3.5 with DHH prompt and DHH parameters.
     # Provides no metadata and no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_old_reprompt_gpt_3_5_dhh,
+        records=old_reprompt_gpt_3_5_dhh.records,
         model=DEFAULT_MODEL,
         dhh_model=True, # True: force the use of DHH_MODEL (gpt-3.5-turbo-0125).
         dhh_prompt=True, # True: use DHH prompt (get_dhh_prompt function).
@@ -885,12 +711,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_old_reprompt_gpt_3_5_dhh,
+        records=old_reprompt_gpt_3_5_dhh.records,
     )
 
     # Saves a copy of the records.
-    records_old_reprompt_gpt_3_5_dhh.save(
-        tsv_file_path=OLD_REPROMPT_GPT_3_5_DHH_PATH,
+    old_reprompt_gpt_3_5_dhh.records.save(
+        tsv_file_path=old_reprompt_gpt_3_5_dhh.path,
         skip_asr_results=False,
     )
 
@@ -904,26 +730,31 @@ def main() -> None:
     # Metadata: NO, no metadata and no category in prompt.
     # Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_old_reprompt_gpt_3_5_new: RecordList = RecordList(
-        tsv_file_path=None,
+    old_reprompt_gpt_3_5_new: Specification = specifications[
+        "old_reprompt_gpt_3_5_new"
+    ]
+
+    # Initializes an empty Recordlist.
+    old_reprompt_gpt_3_5_new.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the duplicated old records that were saved earlier.
-    records_old_reprompt_gpt_3_5_new.load(
-        tsv_file_path=OLD_DUPLICATED_PATH,
+    old_reprompt_gpt_3_5_new.records.load(
+        tsv_file_path=specifications["old_duplicated"].path,
         clear=True,
     )
 
     # Clears old LLM captions.
     clear_llm_captions_from_records(
-        records=records_old_reprompt_gpt_3_5_new,
+        records=old_reprompt_gpt_3_5_new.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 3.5 with new prompt and DHH parameters.
     # Provides no metadata and no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_old_reprompt_gpt_3_5_new,
+        records=old_reprompt_gpt_3_5_new.records,
         model=DEFAULT_MODEL,
         dhh_model=True, # True: force the use of DHH_MODEL (gpt-3.5-turbo-0125).
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -938,12 +769,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_old_reprompt_gpt_3_5_new,
+        records=old_reprompt_gpt_3_5_new.records,
     )
 
     # Saves a copy of the records.
-    records_old_reprompt_gpt_3_5_new.save(
-        tsv_file_path=OLD_REPROMPT_GPT_3_5_NEW_PATH,
+    old_reprompt_gpt_3_5_new.records.save(
+        tsv_file_path=old_reprompt_gpt_3_5_new.path,
         skip_asr_results=False,
     )
 
@@ -957,32 +788,36 @@ def main() -> None:
     # Metadata: YES.
     # Prompting: NO, all LLM captions are cleared.
     # Evaluation: NO, all evaluation results are cleared.
-    captions_new_no_llm: RecordList = RecordList(
-        tsv_file_path=None,
+    new_no_llm: Specification = specifications["new_no_llm"]
+
+    # Initializes an empty Recordlist.
+    new_no_llm.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # TODO: uncomment/comment:
     # Bases new records on the duplicated old records that were saved earlier.
-    #captions_new_no_llm.load(
-    #    tsv_file_path=OLD_DUPLICATED_PATH,
+    #new_no_llm.records.load(
+    #    tsv_file_path=specifications["old_duplicated"].path,
     #    clear=True,
     #)
 
     # TODO: comment/uncomment:
     # Loads existing new records (existing new transcripts), to avoid getting
     # banned for fetching all new transcripts again.
-    captions_new_no_llm: RecordList = RecordList(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_no_llm.records.load(
+        tsv_file_path=new_no_llm.path,
+        clear=True,
     )
 
     # Clears old results.
     clear_results_from_records(
-        records=captions_new_no_llm,
+        records=new_no_llm.records,
     )
 
     # Clears old LLM captions.
     clear_llm_captions_from_records(
-        records=captions_new_no_llm,
+        records=new_no_llm.records,
     )
 
     # Fetches new autogen transcripts (autogen closed captions).
@@ -994,7 +829,7 @@ def main() -> None:
     # Returns early if you get banned, to allow saving fetched transcripts
     # instead of crashing and losing all unsaved progress.
     fetch_transcripts_for_records(
-        records=captions_new_no_llm,
+        records=new_no_llm.records,
         clear_unavailable_transcripts=True,
         wait_for_input_to_continue=False,
         wait_milliseconds_min=120000, # 120 seconds, precaution to avoid ban.
@@ -1002,8 +837,8 @@ def main() -> None:
     )
 
     # Saves a copy of the records (new autogen transcripts).
-    captions_new_no_llm.save(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_no_llm.records.save(
+        tsv_file_path=new_no_llm.path,
         skip_asr_results=False,
     )
 
@@ -1011,14 +846,14 @@ def main() -> None:
     # Fetches video metadata: title, description, and top comments (relevance).
     # Overwrites existing metadata, if any, with newly fetched metadata.
     #fetch_metadata_for_records(
-    #    records=captions_new_no_llm,
+    #    records=new_no_llm.records,
     #    wait_milliseconds_min=6000,
     #    wait_milliseconds_max=12000,
     #)
 
     # Saves a copy of the records (new autogen transcripts and metadata).
-    captions_new_no_llm.save(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_no_llm.records.save(
+        tsv_file_path=new_no_llm.path,
         skip_asr_results=False,
     )
 
@@ -1033,27 +868,30 @@ def main() -> None:
     # Metadata: NO, no metadata and no category in prompt.
     # Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_new_gpt_3_5_no_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    new_gpt_3_5_no_meta: Specification = specifications["new_gpt_3_5_no_meta"]
+
+    # Initializes an empty Recordlist.
+    new_gpt_3_5_no_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the new records that were saved earlier (new autogen transcripts and
     # metadata).
-    records_new_gpt_3_5_no_meta.load(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_gpt_3_5_no_meta.records.load(
+        tsv_file_path=specifications["new_no_llm"].path,
         clear=True,
     )
 
     # Clears old LLM captions, just in case they are not cleared.
     clear_llm_captions_from_records(
-        records=records_new_gpt_3_5_no_meta,
+        records=new_gpt_3_5_no_meta.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 3.5 with new prompt and DHH parameters.
     # Provides no metadata and no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_new_gpt_3_5_no_meta,
+        records=new_gpt_3_5_no_meta.records,
         model=DEFAULT_MODEL,
         dhh_model=True, # True: force the use of DHH_MODEL (gpt-3.5-turbo-0125).
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -1068,12 +906,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_new_gpt_3_5_no_meta,
+        records=new_gpt_3_5_no_meta.records,
     )
 
     # Saves a copy of the records.
-    records_new_gpt_3_5_no_meta.save(
-        tsv_file_path=NEW_GPT_3_5_NO_META_PATH,
+    new_gpt_3_5_no_meta.records.save(
+        tsv_file_path=new_gpt_3_5_no_meta.path,
         skip_asr_results=False,
     )
 
@@ -1087,27 +925,30 @@ def main() -> None:
     # Metadata: YES, all metadata in prompt, no category in prompt.
     # Prompting: YES, prompt GPT 3.5 with new prompt and DHH parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_new_gpt_3_5_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    new_gpt_3_5_meta: Specification = specifications["new_gpt_3_5_meta"]
+
+    # Initializes an empty Recordlist.
+    new_gpt_3_5_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the new records that were saved earlier (new autogen transcripts and
     # metadata).
-    records_new_gpt_3_5_meta.load(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_gpt_3_5_meta.records.load(
+        tsv_file_path=specifications["new_no_llm"].path,
         clear=True,
     )
 
     # Clears old LLM captions, just in case they are not cleared.
     clear_llm_captions_from_records(
-        records=records_new_gpt_3_5_meta,
+        records=new_gpt_3_5_meta.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 3.5 with new prompt and DHH parameters.
     # Provides all metadata in prompt, no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_new_gpt_3_5_meta,
+        records=new_gpt_3_5_meta.records,
         model=DEFAULT_MODEL,
         dhh_model=True, # True: force the use of DHH_MODEL (gpt-3.5-turbo-0125).
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -1122,12 +963,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_new_gpt_3_5_meta,
+        records=new_gpt_3_5_meta.records,
     )
 
     # Saves a copy of the records.
-    records_new_gpt_3_5_meta.save(
-        tsv_file_path=NEW_GPT_3_5_META_PATH,
+    new_gpt_3_5_meta.records.save(
+        tsv_file_path=new_gpt_3_5_meta.path,
         skip_asr_results=False,
     )
 
@@ -1141,27 +982,30 @@ def main() -> None:
     # Metadata: NO, no metadata and no category in prompt.
     # Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_new_gpt_5_4_no_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    new_gpt_5_4_no_meta: Specification = specifications["new_gpt_5_4_no_meta"]
+
+    # Initializes an empty Recordlist.
+    new_gpt_5_4_no_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the new records that were saved earlier (new autogen transcripts and
     # metadata).
-    records_new_gpt_5_4_no_meta.load(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_gpt_5_4_no_meta.records.load(
+        tsv_file_path=specifications["new_no_llm"].path,
         clear=True,
     )
 
     # Clears old LLM captions, just in case they are not cleared.
     clear_llm_captions_from_records(
-        records=records_new_gpt_5_4_no_meta,
+        records=new_gpt_5_4_no_meta.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 5.4 with new prompt and default parameters.
     # Provides no metadata and no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_new_gpt_5_4_no_meta,
+        records=new_gpt_5_4_no_meta.records,
         model=GPT_5_4_MODEL,
         dhh_model=False,
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -1176,12 +1020,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_new_gpt_5_4_no_meta,
+        records=new_gpt_5_4_no_meta.records,
     )
 
     # Saves a copy of the records.
-    records_new_gpt_5_4_no_meta.save(
-        tsv_file_path=NEW_GPT_5_4_NO_META_PATH,
+    new_gpt_5_4_no_meta.records.save(
+        tsv_file_path=new_gpt_5_4_no_meta.path,
         skip_asr_results=False,
     )
 
@@ -1195,27 +1039,30 @@ def main() -> None:
     # Metadata: YES, all metadata in prompt, no category in prompt.
     # Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_new_gpt_5_4_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    new_gpt_5_4_meta: Specification = specifications["new_gpt_5_4_meta"]
+
+    # Initializes an empty Recordlist.
+    new_gpt_5_4_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the new records that were saved earlier (new autogen transcripts and
     # metadata).
-    records_new_gpt_5_4_meta.load(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_gpt_5_4_meta.records.load(
+        tsv_file_path=specifications["new_no_llm"].path,
         clear=True,
     )
 
     # Clears old LLM captions, just in case they are not cleared.
     clear_llm_captions_from_records(
-        records=records_new_gpt_5_4_meta,
+        records=new_gpt_5_4_meta.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 5.4 with new prompt and default parameters.
     # Provides all metadata in prompt, no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_new_gpt_5_4_meta,
+        records=new_gpt_5_4_meta.records,
         model=GPT_5_4_MODEL,
         dhh_model=False,
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -1230,12 +1077,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_new_gpt_5_4_meta,
+        records=new_gpt_5_4_meta.records,
     )
 
     # Saves a copy of the records.
-    records_new_gpt_5_4_meta.save(
-        tsv_file_path=NEW_GPT_5_4_META_PATH,
+    new_gpt_5_4_meta.records.save(
+        tsv_file_path=new_gpt_5_4_meta.path,
         skip_asr_results=False,
     )
 
@@ -1250,27 +1097,32 @@ def main() -> None:
     # Metadata: YES, metadata w/o top comments in prompt, no category in prompt.
     # Prompting: YES, prompt GPT 5.4 with new prompt and default parameters.
     # Evaluation: YES, evaluate by metrics WER, BLEU, and ROUGE.
-    records_new_gpt_5_4_meta_no_comments: RecordList = RecordList(
-        tsv_file_path=None,
+    new_gpt_5_4_meta_no_comments: Specification = specifications[
+        "new_gpt_5_4_meta_no_comments"
+    ]
+
+    # Initializes an empty Recordlist.
+    new_gpt_5_4_meta_no_comments.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Loads the new records that were saved earlier (new autogen transcripts and
     # metadata).
-    records_new_gpt_5_4_meta_no_comments.load(
-        tsv_file_path=NEW_NO_LLM_PATH,
+    new_gpt_5_4_meta_no_comments.records.load(
+        tsv_file_path=specifications["new_no_llm"].path,
         clear=True,
     )
 
     # Clears old LLM captions, just in case they are not cleared.
     clear_llm_captions_from_records(
-        records=records_new_gpt_5_4_meta_no_comments,
+        records=new_gpt_5_4_meta_no_comments.records,
     )
 
     # Generates new GPT captions.
     # Prompts GPT 5.4 with new prompt and default parameters.
     # Provides metadata without top comments in prompt, no category in prompt.
     generate_openai_gpt_caption_for_records(
-        records=records_new_gpt_5_4_meta_no_comments,
+        records=new_gpt_5_4_meta_no_comments.records,
         model=GPT_5_4_MODEL,
         dhh_model=False,
         dhh_prompt=False, # False: use new prompt (get_prompt function).
@@ -1285,12 +1137,12 @@ def main() -> None:
 
     # Evaluates the records (and clears existing results).
     evaluate_records(
-        records=records_new_gpt_5_4_meta_no_comments,
+        records=new_gpt_5_4_meta_no_comments.records,
     )
 
     # Saves a copy of the records.
-    records_new_gpt_5_4_meta_no_comments.save(
-        tsv_file_path=NEW_GPT_5_4_META_NO_COMMENTS_PATH,
+    new_gpt_5_4_meta_no_comments.records.save(
+        tsv_file_path=new_gpt_5_4_meta_no_comments.path,
         skip_asr_results=False,
     )
 
@@ -1303,37 +1155,42 @@ def main() -> None:
     # Difference of
     # "Old records (DHH), reevaluated" versus
     # "Old records (DHH), duplicated".
-    diff_old_reevaluated_vs_old_duplicated: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_old_reevaluated_vs_old_duplicated: Specification = specifications[
+        "diff_old_reevaluated_vs_old_duplicated"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_old_reevaluated_vs_old_duplicated.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Old records (DHH), reevaluated.
-    if "records_old_reevaluated" not in locals():
-        records_old_reevaluated: RecordList = RecordList(
-            tsv_file_path=OLD_REEVALUATED_PATH,
+    if specifications["old_reevaluated"].records is None:
+        specifications["old_reevaluated"].records = RecordList(
+            tsv_file_path=specifications["old_reevaluated"].path,
         )
 
     # Old records (DHH), duplicated.
-    if "records_old_duplicated" not in locals():
-        records_old_duplicated: RecordList = RecordList(
-            tsv_file_path=OLD_DUPLICATED_PATH,
+    if specifications["old_duplicated"].records is None:
+        specifications["old_duplicated"].records = RecordList(
+            tsv_file_path=specifications["old_duplicated"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_old_reevaluated,
-        records_2=records_old_duplicated,
-        records_diff=diff_old_reevaluated_vs_old_duplicated,
+        records_1=specifications["old_reevaluated"].records,
+        records_2=specifications["old_duplicated"].records,
+        records_diff=diff_old_reevaluated_vs_old_duplicated.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_old_reevaluated_vs_old_duplicated.save(
-        tsv_file_path=DIFF_OLD_REEVALUATED_VS_OLD_DUPLICATED_PATH,
+    diff_old_reevaluated_vs_old_duplicated.records.save(
+        tsv_file_path=diff_old_reevaluated_vs_old_duplicated.path,
         skip_asr_results=False,
     )
 
@@ -1347,37 +1204,43 @@ def main() -> None:
     # Difference of
     # "Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)" vs.
     # "Old records (DHH), reevaluated".
-    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated: Specification
+    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated = specifications[
+        "diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters).
-    if "records_old_reprompt_gpt_3_5_dhh" not in locals():
-        records_old_reprompt_gpt_3_5_dhh: RecordList = RecordList(
-            tsv_file_path=OLD_REPROMPT_GPT_3_5_DHH_PATH,
+    if specifications["old_reprompt_gpt_3_5_dhh"].records is None:
+        specifications["old_reprompt_gpt_3_5_dhh"].records = RecordList(
+            tsv_file_path=specifications["old_reprompt_gpt_3_5_dhh"].path,
         )
 
     # Old records (DHH), reevaluated.
-    if "records_old_reevaluated" not in locals():
-        records_old_reevaluated: RecordList = RecordList(
-            tsv_file_path=OLD_REEVALUATED_PATH,
+    if specifications["old_reevaluated"].records is None:
+        specifications["old_reevaluated"].records = RecordList(
+            tsv_file_path=specifications["old_reevaluated"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_old_reprompt_gpt_3_5_dhh,
-        records_2=records_old_reevaluated,
-        records_diff=diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated,
+        records_1=specifications["old_reprompt_gpt_3_5_dhh"].records,
+        records_2=specifications["old_reevaluated"].records,
+        records_diff=diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated.save(
-        tsv_file_path=DIFF_OLD_REPROMPT_GPT_3_5_DHH_VS_OLD_REEVALUATED_PATH,
+    diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated.records.save(
+        tsv_file_path=diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated.path,
         skip_asr_results=False,
     )
 
@@ -1391,37 +1254,43 @@ def main() -> None:
     # Difference of
     # "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" vs.
     # "Old records (DHH), reevaluated".
-    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated: Specification
+    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated = specifications[
+        "diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters).
-    if "records_old_reprompt_gpt_3_5_new" not in locals():
-        records_old_reprompt_gpt_3_5_new: RecordList = RecordList(
-            tsv_file_path=OLD_REPROMPT_GPT_3_5_NEW_PATH,
+    if specifications["old_reprompt_gpt_3_5_new"].records is None:
+        specifications["old_reprompt_gpt_3_5_new"].records = RecordList(
+            tsv_file_path=specifications["old_reprompt_gpt_3_5_new"].path,
         )
 
     # Old records (DHH), reevaluated.
-    if "records_old_reevaluated" not in locals():
-        records_old_reevaluated: RecordList = RecordList(
-            tsv_file_path=OLD_REEVALUATED_PATH,
+    if specifications["old_reevaluated"].records is None:
+        specifications["old_reevaluated"].records = RecordList(
+            tsv_file_path=specifications["old_reevaluated"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_old_reprompt_gpt_3_5_new,
-        records_2=records_old_reevaluated,
-        records_diff=diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated,
+        records_1=specifications["old_reprompt_gpt_3_5_new"].records,
+        records_2=specifications["old_reevaluated"].records,
+        records_diff=diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated.save(
-        tsv_file_path=DIFF_OLD_REPROMPT_GPT_3_5_NEW_VS_OLD_REEVALUATED_PATH,
+    diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated.records.save(
+        tsv_file_path=diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated.path,
         skip_asr_results=False,
     )
 
@@ -1436,39 +1305,48 @@ def main() -> None:
     # Difference of
     # "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)" vs.
     # "Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)".
-    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh: RecordList
-    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh = RecordList(
-        tsv_file_path=None,
+    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh: Specification
+    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh = specifications[
+        "diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh.records = (
+        RecordList(
+            tsv_file_path=None, # None: initialize an empty Recordlist.
+        )
     )
 
     # Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters).
-    if "records_old_reprompt_gpt_3_5_new" not in locals():
-        records_old_reprompt_gpt_3_5_new: RecordList = RecordList(
-            tsv_file_path=OLD_REPROMPT_GPT_3_5_NEW_PATH,
+    if specifications["old_reprompt_gpt_3_5_new"].records is None:
+        specifications["old_reprompt_gpt_3_5_new"].records = RecordList(
+            tsv_file_path=specifications["old_reprompt_gpt_3_5_new"].path,
         )
 
     # Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters).
-    if "records_old_reprompt_gpt_3_5_dhh" not in locals():
-        records_old_reprompt_gpt_3_5_dhh: RecordList = RecordList(
-            tsv_file_path=OLD_REPROMPT_GPT_3_5_DHH_PATH,
+    if specifications["old_reprompt_gpt_3_5_dhh"].records is None:
+        specifications["old_reprompt_gpt_3_5_dhh"].records = RecordList(
+            tsv_file_path=specifications["old_reprompt_gpt_3_5_dhh"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_old_reprompt_gpt_3_5_new,
-        records_2=records_old_reprompt_gpt_3_5_dhh,
-        records_diff=diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh,
+        records_1=specifications["old_reprompt_gpt_3_5_new"].records,
+        records_2=specifications["old_reprompt_gpt_3_5_dhh"].records,
+        records_diff=(
+            diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh.records
+        ),
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh.save(
+    diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh.records.save(
         tsv_file_path=(
-            DIFF_OLD_REPROMPT_GPT_3_5_NEW_VS_OLD_REPROMPT_GPT_3_5_DHH_PATH
+            diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh.path
         ),
         skip_asr_results=False,
     )
@@ -1484,38 +1362,45 @@ def main() -> None:
     # Difference of
     # "New records, GPT 3.5 (new prompt, DHH parameters), without metadata" vs.
     # "Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)".
-    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new: RecordList
-    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new: Specification
+    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new = specifications[
+        "diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 3.5 (new prompt, DHH parameters), without metadata.
-    if "records_new_gpt_3_5_no_meta" not in locals():
-        records_new_gpt_3_5_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_3_5_NO_META_PATH,
+    if specifications["new_gpt_3_5_no_meta"].records is None:
+        specifications["new_gpt_3_5_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_3_5_no_meta"].path,
         )
 
     # Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters).
-    if "records_old_reprompt_gpt_3_5_new" not in locals():
-        records_old_reprompt_gpt_3_5_new: RecordList = RecordList(
-            tsv_file_path=OLD_REPROMPT_GPT_3_5_NEW_PATH,
+    if specifications["old_reprompt_gpt_3_5_new"].records is None:
+        specifications["old_reprompt_gpt_3_5_new"].records = RecordList(
+            tsv_file_path=specifications["old_reprompt_gpt_3_5_new"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_3_5_no_meta,
-        records_2=records_old_reprompt_gpt_3_5_new,
-        records_diff=diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new,
+        records_1=specifications["new_gpt_3_5_no_meta"].records,
+        records_2=specifications["old_reprompt_gpt_3_5_new"].records,
+        records_diff=(
+            diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new.records
+        ),
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new.save(
-        tsv_file_path=DIFF_NEW_GPT_3_5_NO_META_VS_OLD_REPROMPT_GPT_3_5_NEW_PATH,
+    diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new.records.save(
+        tsv_file_path=diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new.path,
         skip_asr_results=False,
     )
 
@@ -1530,37 +1415,43 @@ def main() -> None:
     # Difference of
     # "New records, GPT 3.5 (new prompt, DHH parameters), with metadata" versus
     # "New records, GPT 3.5 (new prompt, DHH parameters), without metadata".
-    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta: Specification
+    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta = specifications[
+        "diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 3.5 (new prompt, DHH parameters), with metadata.
-    if "records_new_gpt_3_5_meta" not in locals():
-        records_new_gpt_3_5_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_3_5_META_PATH,
+    if specifications["new_gpt_3_5_meta"].records is None:
+        specifications["new_gpt_3_5_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_3_5_meta"].path,
         )
 
     # New records, GPT 3.5 (new prompt, DHH parameters), without metadata.
-    if "records_new_gpt_3_5_no_meta" not in locals():
-        records_new_gpt_3_5_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_3_5_NO_META_PATH,
+    if specifications["new_gpt_3_5_no_meta"].records is None:
+        specifications["new_gpt_3_5_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_3_5_no_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_3_5_meta,
-        records_2=records_new_gpt_3_5_no_meta,
-        records_diff=diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta,
+        records_1=specifications["new_gpt_3_5_meta"].records,
+        records_2=specifications["new_gpt_3_5_no_meta"].records,
+        records_diff=diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta.save(
-        tsv_file_path=DIFF_NEW_GPT_3_5_META_VS_NEW_GPT_3_5_NO_META_PATH,
+    diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta.records.save(
+        tsv_file_path=diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta.path,
         skip_asr_results=False,
     )
 
@@ -1574,37 +1465,43 @@ def main() -> None:
     # Difference of
     # "New records, GPT 5.4 (new prompt), without metadata" versus
     # "New records, GPT 3.5 (new prompt, DHH parameters), without metadata".
-    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta: Specification
+    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta = specifications[
+        "diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 5.4 (new prompt), without metadata.
-    if "records_new_gpt_5_4_no_meta" not in locals():
-        records_new_gpt_5_4_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_NO_META_PATH,
+    if specifications["new_gpt_5_4_no_meta"].records is None:
+        specifications["new_gpt_5_4_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_no_meta"].path,
         )
 
     # New records, GPT 3.5 (new prompt, DHH parameters), without metadata.
-    if "records_new_gpt_3_5_no_meta" not in locals():
-        records_new_gpt_3_5_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_3_5_NO_META_PATH,
+    if specifications["new_gpt_3_5_no_meta"].records is None:
+        specifications["new_gpt_3_5_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_3_5_no_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_5_4_no_meta,
-        records_2=records_new_gpt_3_5_no_meta,
-        records_diff=diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta,
+        records_1=specifications["new_gpt_5_4_no_meta"].records,
+        records_2=specifications["new_gpt_3_5_no_meta"].records,
+        records_diff=diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta.save(
-        tsv_file_path=DIFF_NEW_GPT_5_4_NO_META_VS_NEW_GPT_3_5_NO_META_PATH,
+    diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta.records.save(
+        tsv_file_path=diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta.path,
         skip_asr_results=False,
     )
 
@@ -1617,37 +1514,42 @@ def main() -> None:
     # Difference of
     # "New records, GPT 5.4 (new prompt), with metadata" versus
     # "New records, GPT 3.5 (new prompt, DHH parameters), with metadata".
-    diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta: Specification = specifications[
+        "diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 5.4 (new prompt), with metadata.
-    if "records_new_gpt_5_4_meta" not in locals():
-        records_new_gpt_5_4_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_META_PATH,
+    if specifications["new_gpt_5_4_meta"].records is None:
+        specifications["new_gpt_5_4_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_meta"].path,
         )
 
     # New records, GPT 3.5 (new prompt, DHH parameters), with metadata.
-    if "records_new_gpt_3_5_meta" not in locals():
-        records_new_gpt_3_5_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_3_5_META_PATH,
+    if specifications["new_gpt_3_5_meta"].records is None:
+        specifications["new_gpt_3_5_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_3_5_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_5_4_meta,
-        records_2=records_new_gpt_3_5_meta,
-        records_diff=diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta,
+        records_1=specifications["new_gpt_5_4_meta"].records,
+        records_2=specifications["new_gpt_3_5_meta"].records,
+        records_diff=diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta.save(
-        tsv_file_path=DIFF_NEW_GPT_5_4_META_VS_NEW_GPT_3_5_META_PATH,
+    diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta.records.save(
+        tsv_file_path=diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta.path,
         skip_asr_results=False,
     )
 
@@ -1660,37 +1562,43 @@ def main() -> None:
     # Difference of
     # "New records, GPT 5.4 (new prompt), with metadata" versus
     # "New records, GPT 5.4 (new prompt), without metadata".
-    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta: RecordList = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta: Specification
+    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta = specifications[
+        "diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 5.4 (new prompt), with metadata.
-    if "records_new_gpt_5_4_meta" not in locals():
-        records_new_gpt_5_4_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_META_PATH,
+    if specifications["new_gpt_5_4_meta"].records is None:
+        specifications["new_gpt_5_4_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_meta"].path,
         )
 
     # New records, GPT 5.4 (new prompt), without metadata.
-    if "records_new_gpt_5_4_no_meta" not in locals():
-        records_new_gpt_5_4_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_NO_META_PATH,
+    if specifications["new_gpt_5_4_no_meta"].records is None:
+        specifications["new_gpt_5_4_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_no_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_5_4_meta,
-        records_2=records_new_gpt_5_4_no_meta,
-        records_diff=diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta,
+        records_1=specifications["new_gpt_5_4_meta"].records,
+        records_2=specifications["new_gpt_5_4_no_meta"].records,
+        records_diff=diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta.records,
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta.save(
-        tsv_file_path=DIFF_NEW_GPT_5_4_META_VS_NEW_GPT_5_4_NO_META_PATH,
+    diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta.records.save(
+        tsv_file_path=diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta.path,
         skip_asr_results=False,
     )
 
@@ -1704,39 +1612,46 @@ def main() -> None:
     # Difference of
     # "New records, GPT 5.4 (new prompt), with metadata w/o top comments" versus
     # "New records, GPT 5.4 (new prompt), with metadata".
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta: RecordList
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta: Specification
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta = specifications[
+        "diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta.records = RecordList(
+        tsv_file_path=None, # None: initialize an empty Recordlist.
     )
 
     # New records, GPT 5.4 (new prompt), with metadata without top comments.
-    if "records_new_gpt_5_4_meta_no_comments" not in locals():
-        records_new_gpt_5_4_meta_no_comments: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_META_NO_COMMENTS_PATH,
+    if specifications["new_gpt_5_4_meta_no_comments"].records is None:
+        specifications["new_gpt_5_4_meta_no_comments"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_meta_no_comments"].path,
         )
 
     # New records, GPT 5.4 (new prompt), with metadata.
-    if "records_new_gpt_5_4_meta" not in locals():
-        records_new_gpt_5_4_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_META_PATH,
+    if specifications["new_gpt_5_4_meta"].records is None:
+        specifications["new_gpt_5_4_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_5_4_meta_no_comments,
-        records_2=records_new_gpt_5_4_meta,
-        records_diff=diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta,
+        records_1=specifications["new_gpt_5_4_meta_no_comments"].records,
+        records_2=specifications["new_gpt_5_4_meta"].records,
+        records_diff=(
+            diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta.records
+        ),
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta.save(
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta.records.save(
         tsv_file_path=(
-            DIFF_NEW_GPT_5_4_META_NO_COMMENTS_VS_NEW_GPT_5_4_META_PATH
+            diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta.path
         ),
         skip_asr_results=False,
     )
@@ -1751,39 +1666,48 @@ def main() -> None:
     # Difference of
     # "New records, GPT 5.4 (new prompt), with metadata w/o top comments" versus
     # "New records, GPT 5.4 (new prompt), without metadata".
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta: RecordList
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta = RecordList(
-        tsv_file_path=None,
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta: Specification
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta = specifications[
+        "diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta"
+    ]
+
+    # Initializes an empty Recordlist.
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta.records = (
+        RecordList(
+            tsv_file_path=None, # None: initialize an empty Recordlist.
+        )
     )
 
     # New records, GPT 5.4 (new prompt), with metadata without top comments.
-    if "records_new_gpt_5_4_meta_no_comments" not in locals():
-        records_new_gpt_5_4_meta_no_comments: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_META_NO_COMMENTS_PATH,
+    if specifications["new_gpt_5_4_meta_no_comments"].records is None:
+        specifications["new_gpt_5_4_meta_no_comments"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_meta_no_comments"].path,
         )
 
     # New records, GPT 5.4 (new prompt), without metadata.
-    if "records_new_gpt_5_4_no_meta" not in locals():
-        records_new_gpt_5_4_no_meta: RecordList = RecordList(
-            tsv_file_path=NEW_GPT_5_4_NO_META_PATH,
+    if specifications["new_gpt_5_4_no_meta"].records is None:
+        specifications["new_gpt_5_4_no_meta"].records = RecordList(
+            tsv_file_path=specifications["new_gpt_5_4_no_meta"].path,
         )
 
     # Calculates the differences of the results of the records. A difference is
     # taken as zero if the absolute difference is less than the specified
     # tolerance. This is to remove noise and floating point artifacts.
     diff_results_of_records(
-        records_1=records_new_gpt_5_4_meta_no_comments,
-        records_2=records_new_gpt_5_4_no_meta,
-        records_diff=diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta,
+        records_1=specifications["new_gpt_5_4_meta_no_comments"].records,
+        records_2=specifications["new_gpt_5_4_no_meta"].records,
+        records_diff=(
+            diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta.records
+        ),
         tolerance=DIFF_TOLERANCE,
         ndigits_past_tolerance=None,
         return_none_if_input_is_none=True,
     )
 
     # Saves a copy of the differences that were just calculated.
-    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta.save(
+    diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta.records.save(
         tsv_file_path=(
-            DIFF_NEW_GPT_5_4_META_NO_COMMENTS_VS_NEW_GPT_5_4_NO_META_PATH
+            diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta.path
         ),
         skip_asr_results=False,
     )
