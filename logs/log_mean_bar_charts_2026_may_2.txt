@@ -1,0 +1,20 @@
+Calculating wer_asr mean and generating bar chart ...done.
+Calculating wer_gpt mean and generating bar chart ...done.
+Calculating wer_llama2 mean and generating bar chart ...done.
+Calculating bleu_asr mean and generating bar chart ...done.
+Calculating bleu_gpt mean and generating bar chart ...done.
+Calculating bleu_llama2 mean and generating bar chart ...done.
+Calculating rouge1_asr mean and generating bar chart ...done.
+Calculating rouge1_gpt mean and generating bar chart ...done.
+Calculating rouge1_llama2 mean and generating bar chart ...done.
+Calculating rouge2_asr mean and generating bar chart ...done.
+Calculating rouge2_gpt mean and generating bar chart ...done.
+Calculating rouge2_llama2 mean and generating bar chart ...done.
+Calculating rougeL_asr mean and generating bar chart ...done.
+Calculating rougeL_gpt mean and generating bar chart ...done.
+Calculating rougeL_llama2 mean and generating bar chart ...done.
+Calculating rougeLsum_asr mean and generating bar chart ...done.
+Calculating rougeLsum_gpt mean and generating bar chart ...done.
+Calculating rougeLsum_llama2 mean and generating bar chart ...done.
+
+Took 6 seconds.

@@ -1,0 +1,10 @@
+id	mean	stdev	description
+1	0.9663	0.0442	Old records (DHH), duplicated
+2	0.9663	0.0442	Old records (DHH), reevaluated
+3	0.7647	0.2314	Old records (DHH), reprompted GPT 3.5 (DHH prompt, DHH parameters)
+4	0.9376	0.0671	Old records (DHH), reprompted GPT 3.5 (new prompt, DHH parameters)
+5	0.946	0.054	New records, GPT 3.5 (new prompt, DHH parameters), without metadata
+6	0.9456	0.047	New records, GPT 3.5 (new prompt, DHH parameters), with metadata
+7	0.9322	0.1435	New records, GPT 5.4 (new prompt), without metadata
+8	0.9331	0.1435	New records, GPT 5.4 (new prompt), with metadata
+9	0.9329	0.1449	New records, GPT 5.4 (new prompt), with metadata without top comments

@@ -1056,6 +1056,70 @@ class RecordList(MutableSequence):
             "rougeLsum_asr"
         )
 
+    # Iterate a result column by column key. Omit values that are None.
+    # Supported column key integers and strings:
+    # 10 - "wer_gpt"
+    # 11 - "bleu_gpt"
+    # 12 - "rouge1_gpt"
+    # 13 - "rouge2_gpt"
+    # 14 - "rougeL_gpt"
+    # 15 - "rougeLsum_gpt"
+    # 16 - "wer_llama2"
+    # 17 - "bleu_llama2"
+    # 18 - "rouge1_llama2"
+    # 19 - "rouge2_llama2"
+    # 20 - "rougeL_llama2"
+    # 21 - "rougeLsum_llama2"
+    # 22 - "wer_asr"
+    # 23 - "bleu_asr"
+    # 24 - "rouge1_asr"
+    # 25 - "rouge2_asr"
+    # 26 - "rougeL_asr"
+    # 27 - "rougeLsum_asr"
+    def iterate_result_column_only_float(
+        self,
+        column_key: str | int,
+        /,
+    ) -> Generator[float]:
+        value: str | int | float | None
+        record: Record
+        for record in self.records:
+            value = float_or_none(record[column_key])
+            if value is not None:
+                yield value
+
+    # List a result column by column key. Omit values that are None.
+    # Supported column key integers and strings:
+    # 10 - "wer_gpt"
+    # 11 - "bleu_gpt"
+    # 12 - "rouge1_gpt"
+    # 13 - "rouge2_gpt"
+    # 14 - "rougeL_gpt"
+    # 15 - "rougeLsum_gpt"
+    # 16 - "wer_llama2"
+    # 17 - "bleu_llama2"
+    # 18 - "rouge1_llama2"
+    # 19 - "rouge2_llama2"
+    # 20 - "rougeL_llama2"
+    # 21 - "rougeLsum_llama2"
+    # 22 - "wer_asr"
+    # 23 - "bleu_asr"
+    # 24 - "rouge1_asr"
+    # 25 - "rouge2_asr"
+    # 26 - "rougeL_asr"
+    # 27 - "rougeLsum_asr"
+    def list_result_column_only_float(
+        self,
+        column_key: str | int,
+        /,
+    ) -> list[float]:
+        result_column: list[float] = []
+        value: float
+        for value in self.iterate_result_column_only_float(column_key):
+            result_column.append(value)
+
+        return result_column
+
 
 # TODO(wathne): Test this function (it should work).
 def get_records(

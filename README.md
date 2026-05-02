@@ -1,8 +1,8 @@
 # Evaluating Context-Aware LLM Correction of YouTube Automatic Captions
 Running the full main() function in "./evaluation.py" will cost you about $1 in
 total credit with the OpenAI API for GPT 3.5 and GPT 5.4.
-The log file at "./logs/log_evaluation_2026_april_9.txt" shows what the terminal
-output looks like.
+The log file at "./logs/log_evaluation_test_2026_april_30.txt" shows what the
+terminal output looks like.
 The current main() function takes about an hour to finish since it does not have
 to refetch all YouTube captions. It takes hours more if it is told to regenerate everything. Most of the time is then spent on waiting. Getting IP banned
 (IpBlocked) does happen, at least when the randomized_wait() function is not set
@@ -40,7 +40,7 @@ This step is optional and you can skip it. The fetch_metadata_for_records()
 function is currently being skipped. If you still want to refetch all new video
 metadata, then you need to uncomment the fetch_metadata_for_records() function
 within the main() function of the evaluation module (evaluation.py), currently
-lines 848 to 852.
+lines 909 to 913.
 
 The YouTube video metadata module requires a Google API key for YouTube video
 metadata.

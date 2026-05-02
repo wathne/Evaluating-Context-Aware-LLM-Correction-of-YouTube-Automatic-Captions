@@ -13,3 +13,4 @@ numpy
 six
 rouge_score
 evaluate
+matplotlib

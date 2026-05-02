@@ -48,6 +48,8 @@ from captions_with_evaluation_results_wrapper import RecordList
 from evaluate import EvaluationModule
 from evaluate import load as load_evaluation_module
 from evaluation_specs import DIFF_TOLERANCE
+from evaluation_specs import DIR
+from evaluation_specs import EXT
 from evaluation_specs import Specification
 from evaluation_specs import specifications
 from helpers import float_or_none
@@ -60,6 +62,12 @@ from llm_openai_gpt import DEFAULT_MODEL
 from llm_openai_gpt import generate_openai_gpt_caption_for_records
 from llm_openai_gpt import GPT_5_4_MODEL
 from math import log10
+from math import sqrt
+from mean_evaluation_results_wrapper import Record as MeanRecord
+from mean_evaluation_results_wrapper import RecordList as MeanRecordList
+from plot import bar_chart_mean_records
+from statistics import mean
+from statistics import variance
 from yt_metadata import fetch_metadata_for_records
 from yt_transcripts import fetch_transcripts_for_records
 
@@ -592,6 +600,59 @@ def diff_results_of_records(
 
         # Mutates the RecordList (records_diff).
         records_diff.append(record)
+
+    return None
+
+
+# Supported column key integers and strings:
+# 10 - "wer_gpt"
+# 11 - "bleu_gpt"
+# 12 - "rouge1_gpt"
+# 13 - "rouge2_gpt"
+# 14 - "rougeL_gpt"
+# 15 - "rougeLsum_gpt"
+# 16 - "wer_llama2"
+# 17 - "bleu_llama2"
+# 18 - "rouge1_llama2"
+# 19 - "rouge2_llama2"
+# 20 - "rougeL_llama2"
+# 21 - "rougeLsum_llama2"
+# 22 - "wer_asr"
+# 23 - "bleu_asr"
+# 24 - "rouge1_asr"
+# 25 - "rouge2_asr"
+# 26 - "rougeL_asr"
+# 27 - "rougeLsum_asr"
+def calculate_mean_of_results_of_records(
+    records: RecordList,
+    mean_record: MeanRecord,
+    column_key: str | int,
+    ndigits: int | None = 10,
+) -> None:
+    ndigits = int_or_none(ndigits)
+
+    column: list[float] = records.list_result_column_only_float(column_key)
+
+    column_mean: float
+    column_stdev: float
+    column_variance: float
+
+    if len(column) > 0:
+        column_mean = mean(data=column)
+
+        mean_record.mean = round(number=column_mean, ndigits=ndigits)
+    else:
+        mean_record.mean = None
+
+    if len(column) > 1:
+        column_variance = variance(data=column, xbar=column_mean)
+        column_stdev = sqrt(column_variance)
+
+        mean_record.stdev = round(number=column_stdev, ndigits=ndigits)
+        mean_record.variance = round(number=column_variance, ndigits=ndigits)
+    else:
+        mean_record.stdev = None
+        mean_record.variance = None
 
     return None
 
@@ -1711,6 +1772,296 @@ def main() -> None:
         ),
         skip_asr_results=False,
     )
+
+    ############################################################################
+
+    # Calculate mean of results and generate bar charts.
+
+    whitelisted_specification_keys: list[str] = [
+        "old_duplicated",               # 1
+        "old_reevaluated",              # 2
+        "old_reprompt_gpt_3_5_dhh",     # 3
+        "old_reprompt_gpt_3_5_new",     # 4
+        #"new_no_llm",
+        "new_gpt_3_5_no_meta",          # 5
+        "new_gpt_3_5_meta",             # 6
+        "new_gpt_5_4_no_meta",          # 7
+        "new_gpt_5_4_meta",             # 8
+        "new_gpt_5_4_meta_no_comments", # 9
+        #"diff_old_reevaluated_vs_old_duplicated",
+        #"diff_old_reprompt_gpt_3_5_dhh_vs_old_reevaluated",
+        #"diff_old_reprompt_gpt_3_5_new_vs_old_reevaluated",
+        #"diff_old_reprompt_gpt_3_5_new_vs_old_reprompt_gpt_3_5_dhh",
+        #"diff_new_gpt_3_5_no_meta_vs_old_reprompt_gpt_3_5_new",
+        #"diff_new_gpt_3_5_meta_vs_new_gpt_3_5_no_meta",
+        #"diff_new_gpt_5_4_no_meta_vs_new_gpt_3_5_no_meta",
+        #"diff_new_gpt_5_4_meta_vs_new_gpt_3_5_meta",
+        #"diff_new_gpt_5_4_meta_vs_new_gpt_5_4_no_meta",
+        #"diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_meta",
+        #"diff_new_gpt_5_4_meta_no_comments_vs_new_gpt_5_4_no_meta",
+    ]
+
+    # This is a list of result keys, and it dictates the processing order.
+    # Beware that result key "wer_asr" should be processed, and reference record
+    # (ASR mean) set aside, before result keys "wer_gpt" and "wer_llama2" are
+    # processed and plotted. The same goes for the rest: "*_asr" before "*_gpt"
+    # and "*_llama2".
+    result_keys: list[str] = [
+        "wer_asr",
+        "wer_gpt",
+        "wer_llama2",
+
+        "bleu_asr",
+        "bleu_gpt",
+        "bleu_llama2",
+
+        "rouge1_asr",
+        "rouge1_gpt",
+        "rouge1_llama2",
+
+        "rouge2_asr",
+        "rouge2_gpt",
+        "rouge2_llama2",
+
+        "rougeL_asr",
+        "rougeL_gpt",
+        "rougeL_llama2",
+
+        "rougeLsum_asr",
+        "rougeLsum_gpt",
+        "rougeLsum_llama2",
+    ]
+
+    asr_result_keys: list[str] = [
+        "wer_asr",
+        "bleu_asr",
+        "rouge1_asr",
+        "rouge2_asr",
+        "rougeL_asr",
+        "rougeLsum_asr",
+    ]
+
+    # This is a dictionary key to an arbitrarily chosen specification from which
+    # to select benchmark values, specifically ASR means. All of the "new_*"
+    # specifications have identical YouTube (ASR) captions and therefore
+    # identical ASR means. Any one of them will be fine, for example
+    # "new_gpt_5_4_no_meta". All ASR means of this specification will be set
+    # aside. The idea is, for example, that a mean wer_gpt bar chart could
+    # include an extra bar for wer_asr. And unlike wer_gpt, to cover wer_asr
+    # we only need one extra bar because ASR means are invariant for all "new_*"
+    # specifications. In other words, the mean value of wer_asr is identical for
+    # "new_gpt_5_4_no_meta", "new_gpt_3_5_meta", or any other "new_*"
+    # specification.
+    # Beware that result key "wer_asr" must be processed, and reference record
+    # (ASR mean) set aside, before result keys "wer_gpt" and "wer_llama2" are
+    # processed and plotted. The same goes for the rest: "*_asr" before "*_gpt"
+    # and "*_llama2".
+    reference_new_specification_key: str = "new_gpt_5_4_no_meta"
+    reference_new_asr_mean_record: MeanRecord | None
+    reference_new_asr_mean_records: dict[str, MeanRecord | None] = {
+        "wer_asr": None,
+        "bleu_asr": None,
+        "rouge1_asr": None,
+        "rouge2_asr": None,
+        "rougeL_asr": None,
+        "rougeLsum_asr": None,
+    }
+
+    # There are also the invariant ASR means for "old_*" specifications. See the
+    # explanation above, it is the same concept, just for "old_*"
+    # specifications.
+    # We can later include both new and old ASR means in all bar charts.
+    reference_old_specification_key: str = "old_reevaluated"
+    reference_old_asr_mean_record: MeanRecord | None
+    reference_old_asr_mean_records: dict[str, MeanRecord | None] = {
+        "wer_asr": None,
+        "bleu_asr": None,
+        "rouge1_asr": None,
+        "rouge2_asr": None,
+        "rougeL_asr": None,
+        "rougeLsum_asr": None,
+    }
+
+    reference_result_key: str | None
+    surjective_reference_result_key_map: dict[str, str | None] = {
+        "wer_asr": "wer_asr", # Set None to skip ASR reference bars.
+        "wer_gpt": "wer_asr",
+        "wer_llama2": "wer_asr",
+
+        "bleu_asr": "bleu_asr", # Set None to skip ASR reference bars.
+        "bleu_gpt": "bleu_asr",
+        "bleu_llama2": "bleu_asr",
+
+        "rouge1_asr": "rouge1_asr", # Set None to skip ASR reference bars.
+        "rouge1_gpt": "rouge1_asr",
+        "rouge1_llama2": "rouge1_asr",
+
+        "rouge2_asr": "rouge2_asr", # Set None to skip ASR reference bars.
+        "rouge2_gpt": "rouge2_asr",
+        "rouge2_llama2": "rouge2_asr",
+
+        "rougeL_asr": "rougeL_asr", # Set None to skip ASR reference bars.
+        "rougeL_gpt": "rougeL_asr",
+        "rougeL_llama2": "rougeL_asr",
+
+        "rougeLsum_asr": "rougeLsum_asr", # Set None to skip ASR reference bars.
+        "rougeLsum_gpt": "rougeLsum_asr",
+        "rougeLsum_llama2": "rougeLsum_asr",
+    }
+
+    bar_legends: list[str]
+    bar_colors: list[str]
+    reference_new_bar_legend: str | None
+    reference_new_bar_color: str | None = "#696969" # darkgrey
+    reference_old_bar_legend: str | None
+    reference_old_bar_color: str | None = "#a9a9a9" # dimgrey
+
+    mean_records: MeanRecordList
+    mean_records_path: str
+    mean_records_bar_chart_path: str
+    column_key: str
+    # Iterates over result keys.
+    for column_key in result_keys:
+        print(
+            f"Calculating {column_key} mean and generating bar chart .",
+            end="",
+            flush=True,
+        )
+
+        bar_legends = []
+        bar_colors = []
+
+        mean_records = MeanRecordList(
+            tsv_file_path=None,
+            skip_variance=False,
+        )
+
+        mean_record: MeanRecord
+        key: str
+        specification: Specification
+        # Iterates over imported specifications, see "./evaluation_specs.py".
+        for key, specification in specifications.items():
+
+            if key not in whitelisted_specification_keys:
+                continue
+
+            mean_record = MeanRecord(
+                identifier=specification.identifier,
+                mean=None,
+                stdev=None,
+                variance=None,
+                description=specification.description,
+            )
+
+            if specification.records is None:
+                specification.records = RecordList(
+                    tsv_file_path=specification.path,
+                )
+
+            # Calculates the mean of the results (column_key) of the records.
+            calculate_mean_of_results_of_records(
+                records=specification.records,
+                mean_record=mean_record,
+                column_key=column_key,
+                ndigits=4,
+            )
+
+            mean_records.append(mean_record)
+
+            if specification.chart_legend is None:
+                if specification.identifier is None:
+                    bar_legends.append(key)
+                else:
+                    bar_legends.append(
+                        str(specification.identifier) +
+                        " - " +
+                        key
+                    )
+            else:
+                bar_legends.append(specification.chart_legend)
+
+            if specification.chart_color is None:
+                bar_colors.append("#7f7f7f") # grey (Tableu)
+            else:
+                bar_colors.append(specification.chart_color)
+
+            # Sets aside reference record of new ASR mean.
+            if key == reference_new_specification_key:
+                if column_key in asr_result_keys:
+                    reference_new_asr_mean_records[column_key] = mean_record
+
+            # Sets aside reference record of old ASR mean.
+            if key == reference_old_specification_key:
+                if column_key in asr_result_keys:
+                    reference_old_asr_mean_records[column_key] = mean_record
+
+        print(".", end="", flush=True)
+
+        mean_records_path = (
+            DIR +
+            "mean_evaluation_results_" +
+            column_key +
+            EXT
+        )
+
+        mean_records.save(
+            tsv_file_path=mean_records_path,
+            skip_variance=True,
+        )
+
+        print(".", end="", flush=True)
+
+        mean_records_bar_chart_path = (
+            DIR +
+            "bar_charts/" +
+            "bar_chart_mean_" +
+            column_key +
+            ".png"
+        )
+
+        reference_result_key = surjective_reference_result_key_map.get(
+            column_key,
+            None,
+        )
+
+        if reference_result_key is None:
+            reference_new_asr_mean_record = None
+            reference_old_asr_mean_record = None
+            reference_new_bar_legend = None
+            reference_old_bar_legend = None
+        else:
+            reference_new_asr_mean_record = reference_new_asr_mean_records.get(
+                reference_result_key,
+                None,
+            )
+            reference_old_asr_mean_record = reference_old_asr_mean_records.get(
+                reference_result_key,
+                None,
+            )
+            reference_new_bar_legend = (
+                "*" + reference_result_key + " - new YT captions (no LLM)"
+            )
+            reference_old_bar_legend = (
+                "*" + reference_result_key + " - old YT captions (no LLM)"
+            )
+
+        bar_chart_mean_records(
+            mean_records=mean_records,
+            bar_legends=bar_legends,
+            bar_colors=bar_colors,
+            bar_chart_path=mean_records_bar_chart_path,
+            bar_chart_title=column_key,
+            show_stdev=True,
+            show_variance=False,
+            reference_new_asr_mean_record=reference_new_asr_mean_record,
+            reference_new_bar_legend=reference_new_bar_legend,
+            reference_new_bar_color=reference_new_bar_color,
+            reference_old_asr_mean_record=reference_old_asr_mean_record,
+            reference_old_bar_legend=reference_old_bar_legend,
+            reference_old_bar_color=reference_old_bar_color,
+        )
+
+        print("done.")
 
     ############################################################################
 
